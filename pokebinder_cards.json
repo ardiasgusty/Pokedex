@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T13:49:11.993Z",
-  "totalOwned": 325,
+  "lastUpdated": "2026-10-31T13:59:11.564Z",
+  "totalOwned": 332,
   "owned": {
     "2": {
       "id": 2,
@@ -10,7 +10,7 @@
         "grass",
         "poison"
       ],
-      "cardRarity": "holo",
+      "cardRarity": "normal",
       "dateAdded": "2026-10-31T13:49:10.984Z"
     },
     "4": {
@@ -306,6 +306,17 @@
       ],
       "dateAdded": "2026-10-31T11:43:56.401Z",
       "cardRarity": "holo"
+    },
+    "69": {
+      "id": 69,
+      "name": "bellsprout",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:50:18.413Z"
     },
     "71": {
       "id": 71,
@@ -832,6 +843,17 @@
       ],
       "dateAdded": "2026-10-31T11:44:00.017Z",
       "cardRarity": "holo"
+    },
+    "213": {
+      "id": 213,
+      "name": "shuckle",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/213.png",
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:50:57.863Z"
     },
     "215": {
       "id": 215,
@@ -1517,6 +1539,26 @@
       "dateAdded": "2026-10-31T11:44:21.690Z",
       "cardRarity": "holo"
     },
+    "495": {
+      "id": 495,
+      "name": "snivy",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/495.png",
+      "types": [
+        "grass"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:56:42.197Z"
+    },
+    "496": {
+      "id": 496,
+      "name": "servine",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/496.png",
+      "types": [
+        "grass"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:56:49.546Z"
+    },
     "498": {
       "id": 498,
       "name": "tepig",
@@ -2110,6 +2152,17 @@
       "dateAdded": "2026-10-31T11:44:35.743Z",
       "cardRarity": "holo"
     },
+    "586": {
+      "id": 586,
+      "name": "sawsbuck",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:56:12.183Z"
+    },
     "587": {
       "id": 587,
       "name": "emolga",
@@ -2350,6 +2403,16 @@
       "dateAdded": "2026-10-31T11:44:41.459Z",
       "cardRarity": "holo"
     },
+    "617": {
+      "id": 617,
+      "name": "accelgor",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/617.png",
+      "types": [
+        "bug"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:58:01.647Z"
+    },
     "618": {
       "id": 618,
       "name": "stunfisk",
@@ -2589,6 +2652,16 @@
       ],
       "dateAdded": "2026-10-31T11:44:47.784Z",
       "cardRarity": "holo"
+    },
+    "664": {
+      "id": 664,
+      "name": "scatterbug",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
+      "types": [
+        "bug"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:53:06.479Z"
     },
     "667": {
       "id": 667,
