@@ -95,6 +95,7 @@ const el = {
   batchModal: document.getElementById('batch-modal'),
   btnOpenBatchModal: document.getElementById('btn-open-batch-modal'),
   btnCloseBatchModal: document.getElementById('btn-close-batch-modal'),
+  batchRaritySelect: document.getElementById('batch-rarity-select'),
   batchInputArea: document.getElementById('batch-input-area'),
   btnProcessBatch: document.getElementById('btn-process-batch'),
   batchStatusMsg: document.getElementById('batch-status-msg'),
@@ -961,6 +962,7 @@ async function processBatchInput(text) {
   }
 
   el.batchStatusMsg.textContent = `Menyimpan ${uniqueIds.length} nomor...`;
+  const selectedRarity = el.batchRaritySelect ? el.batchRaritySelect.value : 'holo';
   
   for (const id of uniqueIds) {
     const data = await fetchPokemonData(id);
@@ -969,6 +971,7 @@ async function processBatchInput(text) {
       name: data.name,
       sprite: data.sprite,
       types: data.types,
+      cardRarity: selectedRarity,
       dateAdded: new Date().toISOString()
     };
   }
@@ -976,8 +979,8 @@ async function processBatchInput(text) {
   saveDataToLocalStorage();
   updateStats();
   renderBinderPage();
-  el.batchStatusMsg.textContent = `✅ Berhasil menambahkan ${uniqueIds.length} kartu ke binder!`;
-  showToast(`Berhasil menyimpan ${uniqueIds.length} kartu!`);
+  el.batchStatusMsg.textContent = `✅ Berhasil menambahkan ${uniqueIds.length} kartu (${selectedRarity.toUpperCase()}) ke binder!`;
+  showToast(`Berhasil menyimpan ${uniqueIds.length} kartu [${selectedRarity.toUpperCase()}]!`);
 
   if (appState.isGitHubConnected) {
     pushDataToGitHub(true);

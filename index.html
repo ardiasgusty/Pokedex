@@ -223,9 +223,22 @@
       </div>
       <div class="modal-body">
         <p class="modal-desc">Punya banyak kartu sekaligus? Masukkan nomor-nomornya dipisahkan dengan koma atau spasi (contoh: <code>1, 4, 7, 25, 150, 151</code> atau rentang <code>1-10</code>):</p>
+        
+        <div class="form-group" style="margin-bottom: 12px;">
+          <label for="batch-rarity-select" style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">
+            Tipe Kartu untuk Semua Nomor di Bawah:
+          </label>
+          <select id="batch-rarity-select" class="custom-select" style="width: 100%;">
+            <option value="holo" selected>✨ Holofoil / Foil (Holo)</option>
+            <option value="reverse-holo">🌈 Reverse Holo</option>
+            <option value="normal">⚪ Biasa (Non-Holo / Regular)</option>
+            <option value="secret-rare">🌟 Secret / Ultra Rare (Full Art)</option>
+          </select>
+        </div>
+
         <textarea id="batch-input-area" rows="4" placeholder="Contoh: 1, 4, 7, 25, 133, 143, 150-155" class="batch-textarea"></textarea>
-        <div class="batch-actions">
-          <button id="btn-process-batch" class="btn primary">Proses & Tambahkan</button>
+        <div class="batch-actions" style="margin-top: 12px;">
+          <button id="btn-process-batch" class="btn primary">Proses & Tambahkan ke Binder</button>
           <span id="batch-status-msg" class="batch-msg"></span>
         </div>
       </div>
