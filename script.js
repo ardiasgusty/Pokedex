@@ -218,32 +218,59 @@ function updateGitHubSyncIndicator(status) {
 }
 
 async function testGitHubConnection() {
-  if (!appState.githubConfig.token || !appState.githubConfig.username || !appState.githubConfig.repo) {
-    alert('Harap isi Username, Nama Repo, dan Token terlebih dahulu!');
+  const token = el.ghToken.value.trim() || appState.githubConfig.token;
+  const username = el.ghUsername.value.trim() || appState.githubConfig.username;
+  const repo = el.ghRepo.value.trim() || appState.githubConfig.repo;
+
+  if (!token || !username || !repo) {
+    alert('Harap isi Username (' + (username || 'kosong') + '), Nama Repo (' + (repo || 'kosong') + '), dan Token terlebih dahulu!');
     return false;
   }
+
+  // Update in appState for immediate testing
+  appState.githubConfig.username = username;
+  appState.githubConfig.repo = repo;
+  appState.githubConfig.token = token;
+
   updateGitHubSyncIndicator('syncing');
+  el.githubStatusText.innerHTML = `<span style="color:#f59e0b;">⏳ Sedang menguji koneksi ke ${username}/${repo}...</span>`;
+
   try {
-    const res = await fetch(`https://api.github.com/repos/${appState.githubConfig.username}/${appState.githubConfig.repo}`, {
+    const res = await fetch(`https://api.github.com/repos/${username}/${repo}`, {
       headers: {
-        'Authorization': `Bearer ${appState.githubConfig.token.trim()}`,
-        'Accept': 'application/vnd.github.v3+json'
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github+json',
+        'X-GitHub-Api-Version': '2022-11-28'
       }
     });
 
     if (res.ok) {
+      const repoData = await res.json();
       updateGitHubSyncIndicator('connected');
+      el.githubStatusText.innerHTML = `<span style="color:#10b981;">✓ Terhubung ke ${repoData.full_name} (${repoData.default_branch || 'main'})!</span>`;
       showToast('✅ Berhasil terhubung ke repositori GitHub!');
       return true;
     } else {
-      const err = await res.json();
+      const err = await res.json().catch(() => ({}));
       updateGitHubSyncIndicator('not-connected');
-      alert(`Gagal terhubung ke GitHub (${res.status}): ${err.message || 'Cek token dan permission repositori Anda.'}`);
+      
+      let diagMsg = `Gagal terhubung (HTTP ${res.status}): ${err.message || 'Unknown error'}\n\n`;
+      if (res.status === 401) {
+        diagMsg += '👉 Kemungkinan Token Expired atau salah copy. Pastikan token diawali "github_pat_" atau "ghp_".';
+      } else if (res.status === 404) {
+        diagMsg += `👉 Repositori "${username}/${repo}" tidak ditemukan atau token tidak memiliki izin ke repositori ini.\nPastikan nama repository dan username persis (case-sensitive) serta token memiliki akses "Repository access: All repositories" atau spesifik ke "${repo}".`;
+      } else if (res.status === 403) {
+        diagMsg += '👉 Token tidak memiliki permission yang cukup. Pastikan permissions "Contents: Read and write" sudah aktif.';
+      }
+
+      el.githubStatusText.innerHTML = `<span style="color:#ef4444;">✕ ${err.message || 'Gagal terhubung'} (HTTP ${res.status})</span>`;
+      alert(diagMsg);
       return false;
     }
   } catch (e) {
     updateGitHubSyncIndicator('not-connected');
-    alert('Koneksi ke GitHub gagal: ' + e.message);
+    el.githubStatusText.innerHTML = `<span style="color:#ef4444;">✕ Gagal koneksi: ${e.message}</span>`;
+    alert('Koneksi ke GitHub API gagal (cek koneksi internet): ' + e.message);
     return false;
   }
 }
