@@ -9,7 +9,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T10:52:10.589Z"
+      "dateAdded": "2026-10-31T10:52:10.589Z",
+      "cardRarity": "holo"
     },
     "12": {
       "id": 12,
@@ -19,7 +20,8 @@
         "bug",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:15:00.457Z"
+      "dateAdded": "2026-10-31T11:15:00.457Z",
+      "cardRarity": "holo"
     },
     "13": {
       "id": 13,
@@ -29,7 +31,8 @@
         "bug",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:15:00.458Z"
+      "dateAdded": "2026-10-31T11:15:00.458Z",
+      "cardRarity": "holo"
     },
     "22": {
       "id": 22,
@@ -39,7 +42,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:15:00.460Z"
+      "dateAdded": "2026-10-31T11:15:00.460Z",
+      "cardRarity": "holo"
     },
     "23": {
       "id": 23,
@@ -48,7 +52,8 @@
       "types": [
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:15:00.462Z"
+      "dateAdded": "2026-10-31T11:15:00.462Z",
+      "cardRarity": "holo"
     },
     "25": {
       "id": 25,
@@ -57,7 +62,8 @@
       "types": [
         "electric"
       ],
-      "dateAdded": "2026-10-31T10:52:10.589Z"
+      "dateAdded": "2026-10-31T10:52:10.589Z",
+      "cardRarity": "holo"
     },
     "26": {
       "id": 26,
@@ -66,7 +72,8 @@
       "types": [
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:15:00.464Z"
+      "dateAdded": "2026-10-31T11:15:00.464Z",
+      "cardRarity": "holo"
     },
     "31": {
       "id": 31,
@@ -76,7 +83,8 @@
         "poison",
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:15:00.466Z"
+      "dateAdded": "2026-10-31T11:15:00.466Z",
+      "cardRarity": "holo"
     },
     "34": {
       "id": 34,
@@ -86,7 +94,8 @@
         "poison",
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:15:00.469Z"
+      "dateAdded": "2026-10-31T11:15:00.469Z",
+      "cardRarity": "holo"
     },
     "37": {
       "id": 37,
@@ -95,7 +104,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "38": {
       "id": 38,
@@ -104,7 +114,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "39": {
       "id": 39,
@@ -114,7 +125,8 @@
         "normal",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "41": {
       "id": 41,
@@ -124,7 +136,8 @@
         "poison",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "43": {
       "id": 43,
@@ -134,7 +147,8 @@
         "grass",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "44": {
       "id": 44,
@@ -144,7 +158,8 @@
         "grass",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "45": {
       "id": 45,
@@ -154,7 +169,8 @@
         "grass",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "46": {
       "id": 46,
@@ -164,7 +180,8 @@
         "bug",
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "47": {
       "id": 47,
@@ -174,7 +191,8 @@
         "bug",
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "48": {
       "id": 48,
@@ -184,7 +202,8 @@
         "bug",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "50": {
       "id": 50,
@@ -193,7 +212,8 @@
       "types": [
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "51": {
       "id": 51,
@@ -202,7 +222,8 @@
       "types": [
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "52": {
       "id": 52,
@@ -211,7 +232,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:43:56.391Z"
+      "dateAdded": "2026-10-31T11:43:56.391Z",
+      "cardRarity": "holo"
     },
     "55": {
       "id": 55,
@@ -220,7 +242,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:43:56.395Z"
+      "dateAdded": "2026-10-31T11:43:56.395Z",
+      "cardRarity": "holo"
     },
     "57": {
       "id": 57,
@@ -229,7 +252,8 @@
       "types": [
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:43:56.398Z"
+      "dateAdded": "2026-10-31T11:43:56.398Z",
+      "cardRarity": "holo"
     },
     "59": {
       "id": 59,
@@ -238,7 +262,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:43:56.400Z"
+      "dateAdded": "2026-10-31T11:43:56.400Z",
+      "cardRarity": "holo"
     },
     "63": {
       "id": 63,
@@ -247,7 +272,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:56.401Z"
+      "dateAdded": "2026-10-31T11:43:56.401Z",
+      "cardRarity": "holo"
     },
     "71": {
       "id": 71,
@@ -257,7 +283,8 @@
         "grass",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:43:56.403Z"
+      "dateAdded": "2026-10-31T11:43:56.403Z",
+      "cardRarity": "holo"
     },
     "74": {
       "id": 74,
@@ -267,7 +294,8 @@
         "rock",
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:43:56.405Z"
+      "dateAdded": "2026-10-31T11:43:56.405Z",
+      "cardRarity": "holo"
     },
     "79": {
       "id": 79,
@@ -277,7 +305,8 @@
         "water",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:56.407Z"
+      "dateAdded": "2026-10-31T11:43:56.407Z",
+      "cardRarity": "holo"
     },
     "80": {
       "id": 80,
@@ -287,7 +316,8 @@
         "water",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:56.409Z"
+      "dateAdded": "2026-10-31T11:43:56.409Z",
+      "cardRarity": "holo"
     },
     "81": {
       "id": 81,
@@ -297,7 +327,8 @@
         "electric",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:43:56.411Z"
+      "dateAdded": "2026-10-31T11:43:56.411Z",
+      "cardRarity": "holo"
     },
     "85": {
       "id": 85,
@@ -307,7 +338,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:43:56.412Z"
+      "dateAdded": "2026-10-31T11:43:56.412Z",
+      "cardRarity": "holo"
     },
     "92": {
       "id": 92,
@@ -317,7 +349,8 @@
         "ghost",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:43:56.414Z"
+      "dateAdded": "2026-10-31T11:43:56.414Z",
+      "cardRarity": "holo"
     },
     "95": {
       "id": 95,
@@ -327,7 +360,8 @@
         "rock",
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:43:56.416Z"
+      "dateAdded": "2026-10-31T11:43:56.416Z",
+      "cardRarity": "holo"
     },
     "96": {
       "id": 96,
@@ -336,7 +370,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:56.418Z"
+      "dateAdded": "2026-10-31T11:43:56.418Z",
+      "cardRarity": "holo"
     },
     "102": {
       "id": 102,
@@ -346,7 +381,8 @@
         "grass",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:56.420Z"
+      "dateAdded": "2026-10-31T11:43:56.420Z",
+      "cardRarity": "holo"
     },
     "103": {
       "id": 103,
@@ -356,7 +392,8 @@
         "grass",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:56.421Z"
+      "dateAdded": "2026-10-31T11:43:56.421Z",
+      "cardRarity": "holo"
     },
     "108": {
       "id": 108,
@@ -365,7 +402,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:43:56.423Z"
+      "dateAdded": "2026-10-31T11:43:56.423Z",
+      "cardRarity": "holo"
     },
     "112": {
       "id": 112,
@@ -375,7 +413,8 @@
         "ground",
         "rock"
       ],
-      "dateAdded": "2026-10-31T11:43:56.426Z"
+      "dateAdded": "2026-10-31T11:43:56.426Z",
+      "cardRarity": "holo"
     },
     "114": {
       "id": 114,
@@ -384,7 +423,8 @@
       "types": [
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:43:56.428Z"
+      "dateAdded": "2026-10-31T11:43:56.428Z",
+      "cardRarity": "holo"
     },
     "118": {
       "id": 118,
@@ -393,7 +433,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:43:56.429Z"
+      "dateAdded": "2026-10-31T11:43:56.429Z",
+      "cardRarity": "holo"
     },
     "119": {
       "id": 119,
@@ -402,7 +443,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:43:56.431Z"
+      "dateAdded": "2026-10-31T11:43:56.431Z",
+      "cardRarity": "holo"
     },
     "124": {
       "id": 124,
@@ -412,7 +454,8 @@
         "ice",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:56.433Z"
+      "dateAdded": "2026-10-31T11:43:56.433Z",
+      "cardRarity": "holo"
     },
     "130": {
       "id": 130,
@@ -422,7 +465,8 @@
         "water",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:43:56.435Z"
+      "dateAdded": "2026-10-31T11:43:56.435Z",
+      "cardRarity": "holo"
     },
     "131": {
       "id": 131,
@@ -432,7 +476,8 @@
         "water",
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:43:56.438Z"
+      "dateAdded": "2026-10-31T11:43:56.438Z",
+      "cardRarity": "holo"
     },
     "135": {
       "id": 135,
@@ -441,7 +486,8 @@
       "types": [
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:43:56.439Z"
+      "dateAdded": "2026-10-31T11:43:56.439Z",
+      "cardRarity": "holo"
     },
     "136": {
       "id": 136,
@@ -450,7 +496,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:43:56.442Z"
+      "dateAdded": "2026-10-31T11:43:56.442Z",
+      "cardRarity": "holo"
     },
     "139": {
       "id": 139,
@@ -460,7 +507,8 @@
         "rock",
         "water"
       ],
-      "dateAdded": "2026-10-31T11:43:56.443Z"
+      "dateAdded": "2026-10-31T11:43:56.443Z",
+      "cardRarity": "holo"
     },
     "141": {
       "id": 141,
@@ -470,7 +518,8 @@
         "rock",
         "water"
       ],
-      "dateAdded": "2026-10-31T11:43:56.445Z"
+      "dateAdded": "2026-10-31T11:43:56.445Z",
+      "cardRarity": "holo"
     },
     "146": {
       "id": 146,
@@ -480,7 +529,8 @@
         "fire",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:43:56.447Z"
+      "dateAdded": "2026-10-31T11:43:56.447Z",
+      "cardRarity": "holo"
     },
     "147": {
       "id": 147,
@@ -489,7 +539,8 @@
       "types": [
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:43:56.449Z"
+      "dateAdded": "2026-10-31T11:43:56.449Z",
+      "cardRarity": "holo"
     },
     "149": {
       "id": 149,
@@ -499,7 +550,8 @@
         "dragon",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:43:56.452Z"
+      "dateAdded": "2026-10-31T11:43:56.452Z",
+      "cardRarity": "holo"
     },
     "150": {
       "id": 150,
@@ -508,7 +560,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:56.454Z"
+      "dateAdded": "2026-10-31T11:43:56.454Z",
+      "cardRarity": "holo"
     },
     "153": {
       "id": 153,
@@ -517,7 +570,8 @@
       "types": [
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:43:56.768Z"
+      "dateAdded": "2026-10-31T11:43:56.768Z",
+      "cardRarity": "holo"
     },
     "159": {
       "id": 159,
@@ -526,7 +580,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:43:57.103Z"
+      "dateAdded": "2026-10-31T11:43:57.103Z",
+      "cardRarity": "holo"
     },
     "163": {
       "id": 163,
@@ -536,7 +591,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:43:57.358Z"
+      "dateAdded": "2026-10-31T11:43:57.358Z",
+      "cardRarity": "holo"
     },
     "177": {
       "id": 177,
@@ -546,7 +602,8 @@
         "psychic",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:43:57.606Z"
+      "dateAdded": "2026-10-31T11:43:57.606Z",
+      "cardRarity": "holo"
     },
     "181": {
       "id": 181,
@@ -555,7 +612,8 @@
       "types": [
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:43:57.909Z"
+      "dateAdded": "2026-10-31T11:43:57.909Z",
+      "cardRarity": "holo"
     },
     "183": {
       "id": 183,
@@ -565,7 +623,8 @@
         "water",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:43:58.210Z"
+      "dateAdded": "2026-10-31T11:43:58.210Z",
+      "cardRarity": "holo"
     },
     "185": {
       "id": 185,
@@ -574,7 +633,8 @@
       "types": [
         "rock"
       ],
-      "dateAdded": "2026-10-31T11:43:58.512Z"
+      "dateAdded": "2026-10-31T11:43:58.512Z",
+      "cardRarity": "holo"
     },
     "196": {
       "id": 196,
@@ -583,7 +643,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:58.810Z"
+      "dateAdded": "2026-10-31T11:43:58.810Z",
+      "cardRarity": "holo"
     },
     "200": {
       "id": 200,
@@ -592,7 +653,8 @@
       "types": [
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:43:59.116Z"
+      "dateAdded": "2026-10-31T11:43:59.116Z",
+      "cardRarity": "holo"
     },
     "202": {
       "id": 202,
@@ -601,7 +663,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:43:59.412Z"
+      "dateAdded": "2026-10-31T11:43:59.412Z",
+      "cardRarity": "holo"
     },
     "206": {
       "id": 206,
@@ -610,7 +673,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:43:59.715Z"
+      "dateAdded": "2026-10-31T11:43:59.715Z",
+      "cardRarity": "holo"
     },
     "208": {
       "id": 208,
@@ -620,7 +684,8 @@
         "steel",
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:44:00.017Z"
+      "dateAdded": "2026-10-31T11:44:00.017Z",
+      "cardRarity": "holo"
     },
     "215": {
       "id": 215,
@@ -630,7 +695,8 @@
         "dark",
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:44:00.320Z"
+      "dateAdded": "2026-10-31T11:44:00.320Z",
+      "cardRarity": "holo"
     },
     "218": {
       "id": 218,
@@ -639,7 +705,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:01.018Z"
+      "dateAdded": "2026-10-31T11:44:01.018Z",
+      "cardRarity": "holo"
     },
     "219": {
       "id": 219,
@@ -649,7 +716,8 @@
         "fire",
         "rock"
       ],
-      "dateAdded": "2026-10-31T11:44:01.321Z"
+      "dateAdded": "2026-10-31T11:44:01.321Z",
+      "cardRarity": "holo"
     },
     "228": {
       "id": 228,
@@ -659,7 +727,8 @@
         "dark",
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:01.624Z"
+      "dateAdded": "2026-10-31T11:44:01.624Z",
+      "cardRarity": "holo"
     },
     "233": {
       "id": 233,
@@ -668,7 +737,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:01.923Z"
+      "dateAdded": "2026-10-31T11:44:01.923Z",
+      "cardRarity": "holo"
     },
     "237": {
       "id": 237,
@@ -677,7 +747,8 @@
       "types": [
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:02.226Z"
+      "dateAdded": "2026-10-31T11:44:02.226Z",
+      "cardRarity": "holo"
     },
     "243": {
       "id": 243,
@@ -686,7 +757,8 @@
       "types": [
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:44:02.526Z"
+      "dateAdded": "2026-10-31T11:44:02.526Z",
+      "cardRarity": "holo"
     },
     "244": {
       "id": 244,
@@ -695,7 +767,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:03.124Z"
+      "dateAdded": "2026-10-31T11:44:03.124Z",
+      "cardRarity": "holo"
     },
     "246": {
       "id": 246,
@@ -705,7 +778,8 @@
         "rock",
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:44:03.829Z"
+      "dateAdded": "2026-10-31T11:44:03.829Z",
+      "cardRarity": "holo"
     },
     "248": {
       "id": 248,
@@ -715,7 +789,8 @@
         "rock",
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:44:04.132Z"
+      "dateAdded": "2026-10-31T11:44:04.132Z",
+      "cardRarity": "holo"
     },
     "263": {
       "id": 263,
@@ -724,7 +799,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:04.431Z"
+      "dateAdded": "2026-10-31T11:44:04.431Z",
+      "cardRarity": "holo"
     },
     "265": {
       "id": 265,
@@ -733,7 +809,8 @@
       "types": [
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:44:04.731Z"
+      "dateAdded": "2026-10-31T11:44:04.731Z",
+      "cardRarity": "holo"
     },
     "266": {
       "id": 266,
@@ -742,7 +819,8 @@
       "types": [
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:44:04.994Z"
+      "dateAdded": "2026-10-31T11:44:04.994Z",
+      "cardRarity": "holo"
     },
     "267": {
       "id": 267,
@@ -752,7 +830,8 @@
         "bug",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:05.249Z"
+      "dateAdded": "2026-10-31T11:44:05.249Z",
+      "cardRarity": "holo"
     },
     "268": {
       "id": 268,
@@ -761,7 +840,8 @@
       "types": [
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:44:05.506Z"
+      "dateAdded": "2026-10-31T11:44:05.506Z",
+      "cardRarity": "holo"
     },
     "269": {
       "id": 269,
@@ -771,7 +851,8 @@
         "bug",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:44:05.759Z"
+      "dateAdded": "2026-10-31T11:44:05.759Z",
+      "cardRarity": "holo"
     },
     "271": {
       "id": 271,
@@ -781,7 +862,8 @@
         "water",
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:06.138Z"
+      "dateAdded": "2026-10-31T11:44:06.138Z",
+      "cardRarity": "holo"
     },
     "280": {
       "id": 280,
@@ -791,7 +873,8 @@
         "psychic",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:06.440Z"
+      "dateAdded": "2026-10-31T11:44:06.440Z",
+      "cardRarity": "holo"
     },
     "281": {
       "id": 281,
@@ -801,7 +884,8 @@
         "psychic",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:06.741Z"
+      "dateAdded": "2026-10-31T11:44:06.741Z",
+      "cardRarity": "holo"
     },
     "291": {
       "id": 291,
@@ -811,7 +895,8 @@
         "bug",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:07.044Z"
+      "dateAdded": "2026-10-31T11:44:07.044Z",
+      "cardRarity": "holo"
     },
     "297": {
       "id": 297,
@@ -820,7 +905,8 @@
       "types": [
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:07.301Z"
+      "dateAdded": "2026-10-31T11:44:07.301Z",
+      "cardRarity": "holo"
     },
     "300": {
       "id": 300,
@@ -829,7 +915,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:07.569Z"
+      "dateAdded": "2026-10-31T11:44:07.569Z",
+      "cardRarity": "holo"
     },
     "301": {
       "id": 301,
@@ -838,7 +925,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:08.346Z"
+      "dateAdded": "2026-10-31T11:44:08.346Z",
+      "cardRarity": "holo"
     },
     "303": {
       "id": 303,
@@ -848,7 +936,8 @@
         "steel",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:08.646Z"
+      "dateAdded": "2026-10-31T11:44:08.646Z",
+      "cardRarity": "holo"
     },
     "307": {
       "id": 307,
@@ -858,7 +947,8 @@
         "fighting",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:08.948Z"
+      "dateAdded": "2026-10-31T11:44:08.948Z",
+      "cardRarity": "holo"
     },
     "309": {
       "id": 309,
@@ -867,7 +957,8 @@
       "types": [
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:44:09.250Z"
+      "dateAdded": "2026-10-31T11:44:09.250Z",
+      "cardRarity": "holo"
     },
     "318": {
       "id": 318,
@@ -877,7 +968,8 @@
         "water",
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:44:09.751Z"
+      "dateAdded": "2026-10-31T11:44:09.751Z",
+      "cardRarity": "holo"
     },
     "320": {
       "id": 320,
@@ -886,7 +978,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:44:10.018Z"
+      "dateAdded": "2026-10-31T11:44:10.018Z",
+      "cardRarity": "holo"
     },
     "322": {
       "id": 322,
@@ -896,7 +989,8 @@
         "fire",
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:44:10.265Z"
+      "dateAdded": "2026-10-31T11:44:10.265Z",
+      "cardRarity": "holo"
     },
     "328": {
       "id": 328,
@@ -905,7 +999,8 @@
       "types": [
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:44:10.552Z"
+      "dateAdded": "2026-10-31T11:44:10.552Z",
+      "cardRarity": "holo"
     },
     "337": {
       "id": 337,
@@ -915,7 +1010,8 @@
         "rock",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:10.855Z"
+      "dateAdded": "2026-10-31T11:44:10.855Z",
+      "cardRarity": "holo"
     },
     "338": {
       "id": 338,
@@ -925,7 +1021,8 @@
         "rock",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:11.124Z"
+      "dateAdded": "2026-10-31T11:44:11.124Z",
+      "cardRarity": "holo"
     },
     "350": {
       "id": 350,
@@ -934,7 +1031,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:44:11.390Z"
+      "dateAdded": "2026-10-31T11:44:11.390Z",
+      "cardRarity": "holo"
     },
     "353": {
       "id": 353,
@@ -943,7 +1041,8 @@
       "types": [
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:11.757Z"
+      "dateAdded": "2026-10-31T11:44:11.757Z",
+      "cardRarity": "holo"
     },
     "355": {
       "id": 355,
@@ -952,7 +1051,8 @@
       "types": [
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:12.006Z"
+      "dateAdded": "2026-10-31T11:44:12.006Z",
+      "cardRarity": "holo"
     },
     "361": {
       "id": 361,
@@ -961,7 +1061,8 @@
       "types": [
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:44:12.258Z"
+      "dateAdded": "2026-10-31T11:44:12.258Z",
+      "cardRarity": "holo"
     },
     "368": {
       "id": 368,
@@ -970,7 +1071,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:44:12.559Z"
+      "dateAdded": "2026-10-31T11:44:12.559Z",
+      "cardRarity": "holo"
     },
     "376": {
       "id": 376,
@@ -980,7 +1082,8 @@
         "steel",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:12.861Z"
+      "dateAdded": "2026-10-31T11:44:12.861Z",
+      "cardRarity": "holo"
     },
     "383": {
       "id": 383,
@@ -989,7 +1092,8 @@
       "types": [
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:44:13.163Z"
+      "dateAdded": "2026-10-31T11:44:13.163Z",
+      "cardRarity": "holo"
     },
     "384": {
       "id": 384,
@@ -999,7 +1103,8 @@
         "dragon",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:13.465Z"
+      "dateAdded": "2026-10-31T11:44:13.465Z",
+      "cardRarity": "holo"
     },
     "393": {
       "id": 393,
@@ -1008,7 +1113,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:44:13.764Z"
+      "dateAdded": "2026-10-31T11:44:13.764Z",
+      "cardRarity": "holo"
     },
     "396": {
       "id": 396,
@@ -1018,7 +1124,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:14.063Z"
+      "dateAdded": "2026-10-31T11:44:14.063Z",
+      "cardRarity": "holo"
     },
     "398": {
       "id": 398,
@@ -1028,7 +1135,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:14.367Z"
+      "dateAdded": "2026-10-31T11:44:14.367Z",
+      "cardRarity": "holo"
     },
     "408": {
       "id": 408,
@@ -1037,7 +1145,8 @@
       "types": [
         "rock"
       ],
-      "dateAdded": "2026-10-31T11:44:14.669Z"
+      "dateAdded": "2026-10-31T11:44:14.669Z",
+      "cardRarity": "holo"
     },
     "410": {
       "id": 410,
@@ -1047,7 +1156,8 @@
         "rock",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:14.967Z"
+      "dateAdded": "2026-10-31T11:44:14.967Z",
+      "cardRarity": "holo"
     },
     "411": {
       "id": 411,
@@ -1057,7 +1167,8 @@
         "rock",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:15.670Z"
+      "dateAdded": "2026-10-31T11:44:15.670Z",
+      "cardRarity": "holo"
     },
     "429": {
       "id": 429,
@@ -1066,7 +1177,8 @@
       "types": [
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:15.976Z"
+      "dateAdded": "2026-10-31T11:44:15.976Z",
+      "cardRarity": "holo"
     },
     "430": {
       "id": 430,
@@ -1076,7 +1188,8 @@
         "dark",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:16.272Z"
+      "dateAdded": "2026-10-31T11:44:16.272Z",
+      "cardRarity": "holo"
     },
     "436": {
       "id": 436,
@@ -1086,7 +1199,8 @@
         "steel",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:17.477Z"
+      "dateAdded": "2026-10-31T11:44:17.477Z",
+      "cardRarity": "holo"
     },
     "437": {
       "id": 437,
@@ -1096,7 +1210,8 @@
         "steel",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:17.779Z"
+      "dateAdded": "2026-10-31T11:44:17.779Z",
+      "cardRarity": "holo"
     },
     "442": {
       "id": 442,
@@ -1106,7 +1221,8 @@
         "ghost",
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:44:18.037Z"
+      "dateAdded": "2026-10-31T11:44:18.037Z",
+      "cardRarity": "holo"
     },
     "443": {
       "id": 443,
@@ -1116,7 +1232,8 @@
         "dragon",
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:44:18.312Z"
+      "dateAdded": "2026-10-31T11:44:18.312Z",
+      "cardRarity": "holo"
     },
     "447": {
       "id": 447,
@@ -1125,7 +1242,8 @@
       "types": [
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:18.683Z"
+      "dateAdded": "2026-10-31T11:44:18.683Z",
+      "cardRarity": "holo"
     },
     "449": {
       "id": 449,
@@ -1134,7 +1252,8 @@
       "types": [
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:44:18.983Z"
+      "dateAdded": "2026-10-31T11:44:18.983Z",
+      "cardRarity": "holo"
     },
     "450": {
       "id": 450,
@@ -1143,7 +1262,8 @@
       "types": [
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:44:19.284Z"
+      "dateAdded": "2026-10-31T11:44:19.284Z",
+      "cardRarity": "holo"
     },
     "468": {
       "id": 468,
@@ -1153,7 +1273,8 @@
         "fairy",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:19.549Z"
+      "dateAdded": "2026-10-31T11:44:19.549Z",
+      "cardRarity": "holo"
     },
     "477": {
       "id": 477,
@@ -1162,7 +1283,8 @@
       "types": [
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:19.886Z"
+      "dateAdded": "2026-10-31T11:44:19.886Z",
+      "cardRarity": "holo"
     },
     "479": {
       "id": 479,
@@ -1172,7 +1294,8 @@
         "electric",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:20.148Z"
+      "dateAdded": "2026-10-31T11:44:20.148Z",
+      "cardRarity": "holo"
     },
     "485": {
       "id": 485,
@@ -1182,7 +1305,8 @@
         "fire",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:20.435Z"
+      "dateAdded": "2026-10-31T11:44:20.435Z",
+      "cardRarity": "holo"
     },
     "486": {
       "id": 486,
@@ -1191,7 +1315,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:20.789Z"
+      "dateAdded": "2026-10-31T11:44:20.789Z",
+      "cardRarity": "holo"
     },
     "488": {
       "id": 488,
@@ -1200,7 +1325,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:21.090Z"
+      "dateAdded": "2026-10-31T11:44:21.090Z",
+      "cardRarity": "holo"
     },
     "492": {
       "id": 492,
@@ -1209,7 +1335,8 @@
       "types": [
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:21.389Z"
+      "dateAdded": "2026-10-31T11:44:21.389Z",
+      "cardRarity": "holo"
     },
     "494": {
       "id": 494,
@@ -1219,7 +1346,8 @@
         "psychic",
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:21.690Z"
+      "dateAdded": "2026-10-31T11:44:21.690Z",
+      "cardRarity": "holo"
     },
     "498": {
       "id": 498,
@@ -1228,7 +1356,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:21.992Z"
+      "dateAdded": "2026-10-31T11:44:21.992Z",
+      "cardRarity": "holo"
     },
     "499": {
       "id": 499,
@@ -1238,7 +1367,8 @@
         "fire",
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:22.251Z"
+      "dateAdded": "2026-10-31T11:44:22.251Z",
+      "cardRarity": "holo"
     },
     "500": {
       "id": 500,
@@ -1248,7 +1378,8 @@
         "fire",
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:22.595Z"
+      "dateAdded": "2026-10-31T11:44:22.595Z",
+      "cardRarity": "holo"
     },
     "503": {
       "id": 503,
@@ -1257,7 +1388,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:44:22.895Z"
+      "dateAdded": "2026-10-31T11:44:22.895Z",
+      "cardRarity": "holo"
     },
     "504": {
       "id": 504,
@@ -1266,7 +1398,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:23.195Z"
+      "dateAdded": "2026-10-31T11:44:23.195Z",
+      "cardRarity": "holo"
     },
     "505": {
       "id": 505,
@@ -1275,7 +1408,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:23.498Z"
+      "dateAdded": "2026-10-31T11:44:23.498Z",
+      "cardRarity": "holo"
     },
     "507": {
       "id": 507,
@@ -1284,7 +1418,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:23.797Z"
+      "dateAdded": "2026-10-31T11:44:23.797Z",
+      "cardRarity": "holo"
     },
     "512": {
       "id": 512,
@@ -1293,7 +1428,8 @@
       "types": [
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:24.100Z"
+      "dateAdded": "2026-10-31T11:44:24.100Z",
+      "cardRarity": "holo"
     },
     "513": {
       "id": 513,
@@ -1302,7 +1438,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:24.347Z"
+      "dateAdded": "2026-10-31T11:44:24.347Z",
+      "cardRarity": "holo"
     },
     "517": {
       "id": 517,
@@ -1311,7 +1448,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:24.703Z"
+      "dateAdded": "2026-10-31T11:44:24.703Z",
+      "cardRarity": "holo"
     },
     "520": {
       "id": 520,
@@ -1321,7 +1459,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:25.001Z"
+      "dateAdded": "2026-10-31T11:44:25.001Z",
+      "cardRarity": "holo"
     },
     "521": {
       "id": 521,
@@ -1331,7 +1470,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:25.305Z"
+      "dateAdded": "2026-10-31T11:44:25.305Z",
+      "cardRarity": "holo"
     },
     "527": {
       "id": 527,
@@ -1341,7 +1481,8 @@
         "psychic",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:25.563Z"
+      "dateAdded": "2026-10-31T11:44:25.563Z",
+      "cardRarity": "holo"
     },
     "529": {
       "id": 529,
@@ -1350,7 +1491,8 @@
       "types": [
         "ground"
       ],
-      "dateAdded": "2026-10-31T11:44:25.810Z"
+      "dateAdded": "2026-10-31T11:44:25.810Z",
+      "cardRarity": "holo"
     },
     "532": {
       "id": 532,
@@ -1359,7 +1501,8 @@
       "types": [
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:26.110Z"
+      "dateAdded": "2026-10-31T11:44:26.110Z",
+      "cardRarity": "holo"
     },
     "534": {
       "id": 534,
@@ -1368,7 +1511,8 @@
       "types": [
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:26.368Z"
+      "dateAdded": "2026-10-31T11:44:26.368Z",
+      "cardRarity": "holo"
     },
     "539": {
       "id": 539,
@@ -1377,7 +1521,8 @@
       "types": [
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:26.624Z"
+      "dateAdded": "2026-10-31T11:44:26.624Z",
+      "cardRarity": "holo"
     },
     "540": {
       "id": 540,
@@ -1387,7 +1532,8 @@
         "bug",
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:26.911Z"
+      "dateAdded": "2026-10-31T11:44:26.911Z",
+      "cardRarity": "holo"
     },
     "541": {
       "id": 541,
@@ -1397,7 +1543,8 @@
         "bug",
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:27.162Z"
+      "dateAdded": "2026-10-31T11:44:27.162Z",
+      "cardRarity": "holo"
     },
     "544": {
       "id": 544,
@@ -1407,7 +1554,8 @@
         "bug",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:44:27.409Z"
+      "dateAdded": "2026-10-31T11:44:27.409Z",
+      "cardRarity": "holo"
     },
     "546": {
       "id": 546,
@@ -1417,7 +1565,8 @@
         "grass",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:27.659Z"
+      "dateAdded": "2026-10-31T11:44:27.659Z",
+      "cardRarity": "holo"
     },
     "547": {
       "id": 547,
@@ -1427,7 +1576,8 @@
         "grass",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:28.013Z"
+      "dateAdded": "2026-10-31T11:44:28.013Z",
+      "cardRarity": "holo"
     },
     "548": {
       "id": 548,
@@ -1436,7 +1586,8 @@
       "types": [
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:28.279Z"
+      "dateAdded": "2026-10-31T11:44:28.279Z",
+      "cardRarity": "holo"
     },
     "549": {
       "id": 549,
@@ -1445,7 +1596,8 @@
       "types": [
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:28.527Z"
+      "dateAdded": "2026-10-31T11:44:28.527Z",
+      "cardRarity": "holo"
     },
     "551": {
       "id": 551,
@@ -1455,7 +1607,8 @@
         "ground",
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:44:28.817Z"
+      "dateAdded": "2026-10-31T11:44:28.817Z",
+      "cardRarity": "holo"
     },
     "552": {
       "id": 552,
@@ -1465,7 +1618,8 @@
         "ground",
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:44:29.120Z"
+      "dateAdded": "2026-10-31T11:44:29.120Z",
+      "cardRarity": "holo"
     },
     "553": {
       "id": 553,
@@ -1475,7 +1629,8 @@
         "ground",
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:44:29.822Z"
+      "dateAdded": "2026-10-31T11:44:29.822Z",
+      "cardRarity": "holo"
     },
     "554": {
       "id": 554,
@@ -1484,7 +1639,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:30.122Z"
+      "dateAdded": "2026-10-31T11:44:30.122Z",
+      "cardRarity": "holo"
     },
     "555": {
       "id": 555,
@@ -1493,7 +1649,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:30.418Z"
+      "dateAdded": "2026-10-31T11:44:30.418Z",
+      "cardRarity": "holo"
     },
     "556": {
       "id": 556,
@@ -1502,7 +1659,8 @@
       "types": [
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:30.724Z"
+      "dateAdded": "2026-10-31T11:44:30.724Z",
+      "cardRarity": "holo"
     },
     "557": {
       "id": 557,
@@ -1512,7 +1670,8 @@
         "bug",
         "rock"
       ],
-      "dateAdded": "2026-10-31T11:44:31.025Z"
+      "dateAdded": "2026-10-31T11:44:31.025Z",
+      "cardRarity": "holo"
     },
     "558": {
       "id": 558,
@@ -1522,7 +1681,8 @@
         "bug",
         "rock"
       ],
-      "dateAdded": "2026-10-31T11:44:31.326Z"
+      "dateAdded": "2026-10-31T11:44:31.326Z",
+      "cardRarity": "holo"
     },
     "559": {
       "id": 559,
@@ -1532,7 +1692,8 @@
         "dark",
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:31.627Z"
+      "dateAdded": "2026-10-31T11:44:31.627Z",
+      "cardRarity": "holo"
     },
     "563": {
       "id": 563,
@@ -1541,7 +1702,8 @@
       "types": [
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:31.928Z"
+      "dateAdded": "2026-10-31T11:44:31.928Z",
+      "cardRarity": "holo"
     },
     "565": {
       "id": 565,
@@ -1551,7 +1713,8 @@
         "water",
         "rock"
       ],
-      "dateAdded": "2026-10-31T11:44:32.228Z"
+      "dateAdded": "2026-10-31T11:44:32.228Z",
+      "cardRarity": "holo"
     },
     "567": {
       "id": 567,
@@ -1561,7 +1724,8 @@
         "rock",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:32.530Z"
+      "dateAdded": "2026-10-31T11:44:32.530Z",
+      "cardRarity": "holo"
     },
     "568": {
       "id": 568,
@@ -1570,7 +1734,8 @@
       "types": [
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:44:32.830Z"
+      "dateAdded": "2026-10-31T11:44:32.830Z",
+      "cardRarity": "holo"
     },
     "570": {
       "id": 570,
@@ -1579,7 +1744,8 @@
       "types": [
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:44:33.132Z"
+      "dateAdded": "2026-10-31T11:44:33.132Z",
+      "cardRarity": "holo"
     },
     "571": {
       "id": 571,
@@ -1588,7 +1754,8 @@
       "types": [
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:44:33.433Z"
+      "dateAdded": "2026-10-31T11:44:33.433Z",
+      "cardRarity": "holo"
     },
     "573": {
       "id": 573,
@@ -1597,7 +1764,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:33.730Z"
+      "dateAdded": "2026-10-31T11:44:33.730Z",
+      "cardRarity": "holo"
     },
     "574": {
       "id": 574,
@@ -1606,7 +1774,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:34.035Z"
+      "dateAdded": "2026-10-31T11:44:34.035Z",
+      "cardRarity": "holo"
     },
     "575": {
       "id": 575,
@@ -1615,7 +1784,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:34.336Z"
+      "dateAdded": "2026-10-31T11:44:34.336Z",
+      "cardRarity": "holo"
     },
     "576": {
       "id": 576,
@@ -1624,7 +1794,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:34.637Z"
+      "dateAdded": "2026-10-31T11:44:34.637Z",
+      "cardRarity": "holo"
     },
     "578": {
       "id": 578,
@@ -1633,7 +1804,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:34.939Z"
+      "dateAdded": "2026-10-31T11:44:34.939Z",
+      "cardRarity": "holo"
     },
     "582": {
       "id": 582,
@@ -1642,7 +1814,8 @@
       "types": [
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:44:35.239Z"
+      "dateAdded": "2026-10-31T11:44:35.239Z",
+      "cardRarity": "holo"
     },
     "583": {
       "id": 583,
@@ -1651,7 +1824,8 @@
       "types": [
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:44:35.496Z"
+      "dateAdded": "2026-10-31T11:44:35.496Z",
+      "cardRarity": "holo"
     },
     "585": {
       "id": 585,
@@ -1661,7 +1835,8 @@
         "normal",
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:35.743Z"
+      "dateAdded": "2026-10-31T11:44:35.743Z",
+      "cardRarity": "holo"
     },
     "587": {
       "id": 587,
@@ -1671,7 +1846,8 @@
         "electric",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:36.003Z"
+      "dateAdded": "2026-10-31T11:44:36.003Z",
+      "cardRarity": "holo"
     },
     "588": {
       "id": 588,
@@ -1680,7 +1856,8 @@
       "types": [
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:44:36.333Z"
+      "dateAdded": "2026-10-31T11:44:36.333Z",
+      "cardRarity": "holo"
     },
     "590": {
       "id": 590,
@@ -1690,7 +1867,8 @@
         "grass",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:44:36.645Z"
+      "dateAdded": "2026-10-31T11:44:36.645Z",
+      "cardRarity": "holo"
     },
     "592": {
       "id": 592,
@@ -1700,7 +1878,8 @@
         "water",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:36.946Z"
+      "dateAdded": "2026-10-31T11:44:36.946Z",
+      "cardRarity": "holo"
     },
     "595": {
       "id": 595,
@@ -1710,7 +1889,8 @@
         "bug",
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:44:37.246Z"
+      "dateAdded": "2026-10-31T11:44:37.246Z",
+      "cardRarity": "holo"
     },
     "597": {
       "id": 597,
@@ -1720,7 +1900,8 @@
         "grass",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:37.546Z"
+      "dateAdded": "2026-10-31T11:44:37.546Z",
+      "cardRarity": "holo"
     },
     "598": {
       "id": 598,
@@ -1730,7 +1911,8 @@
         "grass",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:37.847Z"
+      "dateAdded": "2026-10-31T11:44:37.847Z",
+      "cardRarity": "holo"
     },
     "599": {
       "id": 599,
@@ -1739,7 +1921,8 @@
       "types": [
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:38.147Z"
+      "dateAdded": "2026-10-31T11:44:38.147Z",
+      "cardRarity": "holo"
     },
     "600": {
       "id": 600,
@@ -1748,7 +1931,8 @@
       "types": [
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:38.450Z"
+      "dateAdded": "2026-10-31T11:44:38.450Z",
+      "cardRarity": "holo"
     },
     "601": {
       "id": 601,
@@ -1757,7 +1941,8 @@
       "types": [
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:38.708Z"
+      "dateAdded": "2026-10-31T11:44:38.708Z",
+      "cardRarity": "holo"
     },
     "603": {
       "id": 603,
@@ -1766,7 +1951,8 @@
       "types": [
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:44:38.962Z"
+      "dateAdded": "2026-10-31T11:44:38.962Z",
+      "cardRarity": "holo"
     },
     "604": {
       "id": 604,
@@ -1775,7 +1961,8 @@
       "types": [
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:44:39.251Z"
+      "dateAdded": "2026-10-31T11:44:39.251Z",
+      "cardRarity": "holo"
     },
     "605": {
       "id": 605,
@@ -1784,7 +1971,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:39.555Z"
+      "dateAdded": "2026-10-31T11:44:39.555Z",
+      "cardRarity": "holo"
     },
     "606": {
       "id": 606,
@@ -1793,7 +1981,8 @@
       "types": [
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:39.856Z"
+      "dateAdded": "2026-10-31T11:44:39.856Z",
+      "cardRarity": "holo"
     },
     "607": {
       "id": 607,
@@ -1803,7 +1992,8 @@
         "ghost",
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:40.158Z"
+      "dateAdded": "2026-10-31T11:44:40.158Z",
+      "cardRarity": "holo"
     },
     "609": {
       "id": 609,
@@ -1813,7 +2003,8 @@
         "ghost",
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:40.410Z"
+      "dateAdded": "2026-10-31T11:44:40.410Z",
+      "cardRarity": "holo"
     },
     "613": {
       "id": 613,
@@ -1822,7 +2013,8 @@
       "types": [
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:44:40.664Z"
+      "dateAdded": "2026-10-31T11:44:40.664Z",
+      "cardRarity": "holo"
     },
     "614": {
       "id": 614,
@@ -1831,7 +2023,8 @@
       "types": [
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:44:40.927Z"
+      "dateAdded": "2026-10-31T11:44:40.927Z",
+      "cardRarity": "holo"
     },
     "615": {
       "id": 615,
@@ -1840,7 +2033,8 @@
       "types": [
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:44:41.182Z"
+      "dateAdded": "2026-10-31T11:44:41.182Z",
+      "cardRarity": "holo"
     },
     "616": {
       "id": 616,
@@ -1849,7 +2043,8 @@
       "types": [
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:44:41.459Z"
+      "dateAdded": "2026-10-31T11:44:41.459Z",
+      "cardRarity": "holo"
     },
     "618": {
       "id": 618,
@@ -1859,7 +2054,8 @@
         "ground",
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:44:41.763Z"
+      "dateAdded": "2026-10-31T11:44:41.763Z",
+      "cardRarity": "holo"
     },
     "619": {
       "id": 619,
@@ -1868,7 +2064,8 @@
       "types": [
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:42.064Z"
+      "dateAdded": "2026-10-31T11:44:42.064Z",
+      "cardRarity": "holo"
     },
     "622": {
       "id": 622,
@@ -1878,7 +2075,8 @@
         "ground",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:42.364Z"
+      "dateAdded": "2026-10-31T11:44:42.364Z",
+      "cardRarity": "holo"
     },
     "623": {
       "id": 623,
@@ -1888,7 +2086,8 @@
         "ground",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:42.612Z"
+      "dateAdded": "2026-10-31T11:44:42.612Z",
+      "cardRarity": "holo"
     },
     "624": {
       "id": 624,
@@ -1898,7 +2097,8 @@
         "dark",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:42.877Z"
+      "dateAdded": "2026-10-31T11:44:42.877Z",
+      "cardRarity": "holo"
     },
     "625": {
       "id": 625,
@@ -1908,7 +2108,8 @@
         "dark",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:43.168Z"
+      "dateAdded": "2026-10-31T11:44:43.168Z",
+      "cardRarity": "holo"
     },
     "627": {
       "id": 627,
@@ -1918,7 +2119,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:43.417Z"
+      "dateAdded": "2026-10-31T11:44:43.417Z",
+      "cardRarity": "holo"
     },
     "628": {
       "id": 628,
@@ -1928,7 +2130,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:43.666Z"
+      "dateAdded": "2026-10-31T11:44:43.666Z",
+      "cardRarity": "holo"
     },
     "629": {
       "id": 629,
@@ -1938,7 +2141,8 @@
         "dark",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:43.924Z"
+      "dateAdded": "2026-10-31T11:44:43.924Z",
+      "cardRarity": "holo"
     },
     "632": {
       "id": 632,
@@ -1948,7 +2152,8 @@
         "bug",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:44:44.272Z"
+      "dateAdded": "2026-10-31T11:44:44.272Z",
+      "cardRarity": "holo"
     },
     "633": {
       "id": 633,
@@ -1958,7 +2163,8 @@
         "dark",
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:44:44.573Z"
+      "dateAdded": "2026-10-31T11:44:44.573Z",
+      "cardRarity": "holo"
     },
     "637": {
       "id": 637,
@@ -1968,7 +2174,8 @@
         "bug",
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:44.875Z"
+      "dateAdded": "2026-10-31T11:44:44.875Z",
+      "cardRarity": "holo"
     },
     "638": {
       "id": 638,
@@ -1978,7 +2185,8 @@
         "steel",
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:45.175Z"
+      "dateAdded": "2026-10-31T11:44:45.175Z",
+      "cardRarity": "holo"
     },
     "639": {
       "id": 639,
@@ -1988,7 +2196,8 @@
         "rock",
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:45.476Z"
+      "dateAdded": "2026-10-31T11:44:45.476Z",
+      "cardRarity": "holo"
     },
     "640": {
       "id": 640,
@@ -1998,7 +2207,8 @@
         "grass",
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:45.774Z"
+      "dateAdded": "2026-10-31T11:44:45.774Z",
+      "cardRarity": "holo"
     },
     "641": {
       "id": 641,
@@ -2007,7 +2217,8 @@
       "types": [
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:46.037Z"
+      "dateAdded": "2026-10-31T11:44:46.037Z",
+      "cardRarity": "holo"
     },
     "642": {
       "id": 642,
@@ -2017,7 +2228,8 @@
         "electric",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:46.285Z"
+      "dateAdded": "2026-10-31T11:44:46.285Z",
+      "cardRarity": "holo"
     },
     "643": {
       "id": 643,
@@ -2027,7 +2239,8 @@
         "dragon",
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:46.581Z"
+      "dateAdded": "2026-10-31T11:44:46.581Z",
+      "cardRarity": "holo"
     },
     "644": {
       "id": 644,
@@ -2037,7 +2250,8 @@
         "dragon",
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:44:46.883Z"
+      "dateAdded": "2026-10-31T11:44:46.883Z",
+      "cardRarity": "holo"
     },
     "645": {
       "id": 645,
@@ -2047,7 +2261,8 @@
         "ground",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:47.185Z"
+      "dateAdded": "2026-10-31T11:44:47.185Z",
+      "cardRarity": "holo"
     },
     "652": {
       "id": 652,
@@ -2057,7 +2272,8 @@
         "grass",
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:47.482Z"
+      "dateAdded": "2026-10-31T11:44:47.482Z",
+      "cardRarity": "holo"
     },
     "655": {
       "id": 655,
@@ -2067,7 +2283,8 @@
         "fire",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:44:47.784Z"
+      "dateAdded": "2026-10-31T11:44:47.784Z",
+      "cardRarity": "holo"
     },
     "667": {
       "id": 667,
@@ -2077,7 +2294,8 @@
         "fire",
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:48.091Z"
+      "dateAdded": "2026-10-31T11:44:48.091Z",
+      "cardRarity": "holo"
     },
     "683": {
       "id": 683,
@@ -2086,7 +2304,8 @@
       "types": [
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:48.386Z"
+      "dateAdded": "2026-10-31T11:44:48.386Z",
+      "cardRarity": "holo"
     },
     "693": {
       "id": 693,
@@ -2095,7 +2314,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:44:48.687Z"
+      "dateAdded": "2026-10-31T11:44:48.687Z",
+      "cardRarity": "holo"
     },
     "694": {
       "id": 694,
@@ -2105,7 +2325,8 @@
         "electric",
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:48.977Z"
+      "dateAdded": "2026-10-31T11:44:48.977Z",
+      "cardRarity": "holo"
     },
     "698": {
       "id": 698,
@@ -2115,7 +2336,8 @@
         "rock",
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:44:49.290Z"
+      "dateAdded": "2026-10-31T11:44:49.290Z",
+      "cardRarity": "holo"
     },
     "700": {
       "id": 700,
@@ -2124,7 +2346,8 @@
       "types": [
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:49.589Z"
+      "dateAdded": "2026-10-31T11:44:49.589Z",
+      "cardRarity": "holo"
     },
     "703": {
       "id": 703,
@@ -2134,7 +2357,8 @@
         "rock",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:49.891Z"
+      "dateAdded": "2026-10-31T11:44:49.891Z",
+      "cardRarity": "holo"
     },
     "709": {
       "id": 709,
@@ -2144,7 +2368,8 @@
         "ghost",
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:50.192Z"
+      "dateAdded": "2026-10-31T11:44:50.192Z",
+      "cardRarity": "holo"
     },
     "715": {
       "id": 715,
@@ -2154,7 +2379,8 @@
         "flying",
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:44:50.491Z"
+      "dateAdded": "2026-10-31T11:44:50.491Z",
+      "cardRarity": "holo"
     },
     "720": {
       "id": 720,
@@ -2164,7 +2390,8 @@
         "psychic",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:50.793Z"
+      "dateAdded": "2026-10-31T11:44:50.793Z",
+      "cardRarity": "holo"
     },
     "729": {
       "id": 729,
@@ -2173,7 +2400,8 @@
       "types": [
         "water"
       ],
-      "dateAdded": "2026-10-31T11:44:51.095Z"
+      "dateAdded": "2026-10-31T11:44:51.095Z",
+      "cardRarity": "holo"
     },
     "730": {
       "id": 730,
@@ -2183,7 +2411,8 @@
         "water",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:51.394Z"
+      "dateAdded": "2026-10-31T11:44:51.394Z",
+      "cardRarity": "holo"
     },
     "732": {
       "id": 732,
@@ -2193,7 +2422,8 @@
         "normal",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:51.697Z"
+      "dateAdded": "2026-10-31T11:44:51.697Z",
+      "cardRarity": "holo"
     },
     "736": {
       "id": 736,
@@ -2202,7 +2432,8 @@
       "types": [
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:44:52.000Z"
+      "dateAdded": "2026-10-31T11:44:52.000Z",
+      "cardRarity": "holo"
     },
     "737": {
       "id": 737,
@@ -2212,7 +2443,8 @@
         "bug",
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:44:52.300Z"
+      "dateAdded": "2026-10-31T11:44:52.300Z",
+      "cardRarity": "holo"
     },
     "738": {
       "id": 738,
@@ -2222,7 +2454,8 @@
         "bug",
         "electric"
       ],
-      "dateAdded": "2026-10-31T11:44:52.601Z"
+      "dateAdded": "2026-10-31T11:44:52.601Z",
+      "cardRarity": "holo"
     },
     "745": {
       "id": 745,
@@ -2231,7 +2464,8 @@
       "types": [
         "rock"
       ],
-      "dateAdded": "2026-10-31T11:44:52.909Z"
+      "dateAdded": "2026-10-31T11:44:52.909Z",
+      "cardRarity": "holo"
     },
     "753": {
       "id": 753,
@@ -2240,7 +2474,8 @@
       "types": [
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:44:53.207Z"
+      "dateAdded": "2026-10-31T11:44:53.207Z",
+      "cardRarity": "holo"
     },
     "757": {
       "id": 757,
@@ -2250,7 +2485,8 @@
         "poison",
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:53.506Z"
+      "dateAdded": "2026-10-31T11:44:53.506Z",
+      "cardRarity": "holo"
     },
     "773": {
       "id": 773,
@@ -2259,7 +2495,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:53.757Z"
+      "dateAdded": "2026-10-31T11:44:53.757Z",
+      "cardRarity": "holo"
     },
     "776": {
       "id": 776,
@@ -2269,7 +2506,8 @@
         "fire",
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:44:54.014Z"
+      "dateAdded": "2026-10-31T11:44:54.014Z",
+      "cardRarity": "holo"
     },
     "778": {
       "id": 778,
@@ -2279,7 +2517,8 @@
         "ghost",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:54.308Z"
+      "dateAdded": "2026-10-31T11:44:54.308Z",
+      "cardRarity": "holo"
     },
     "780": {
       "id": 780,
@@ -2289,7 +2528,8 @@
         "normal",
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:44:54.610Z"
+      "dateAdded": "2026-10-31T11:44:54.610Z",
+      "cardRarity": "holo"
     },
     "785": {
       "id": 785,
@@ -2299,7 +2539,8 @@
         "electric",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:54.909Z"
+      "dateAdded": "2026-10-31T11:44:54.909Z",
+      "cardRarity": "holo"
     },
     "801": {
       "id": 801,
@@ -2309,7 +2550,8 @@
         "steel",
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:55.210Z"
+      "dateAdded": "2026-10-31T11:44:55.210Z",
+      "cardRarity": "holo"
     },
     "813": {
       "id": 813,
@@ -2318,7 +2560,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:55.509Z"
+      "dateAdded": "2026-10-31T11:44:55.509Z",
+      "cardRarity": "holo"
     },
     "814": {
       "id": 814,
@@ -2327,7 +2570,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:55.811Z"
+      "dateAdded": "2026-10-31T11:44:55.811Z",
+      "cardRarity": "holo"
     },
     "815": {
       "id": 815,
@@ -2336,7 +2580,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:56.112Z"
+      "dateAdded": "2026-10-31T11:44:56.112Z",
+      "cardRarity": "holo"
     },
     "822": {
       "id": 822,
@@ -2345,7 +2590,8 @@
       "types": [
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:44:56.362Z"
+      "dateAdded": "2026-10-31T11:44:56.362Z",
+      "cardRarity": "holo"
     },
     "837": {
       "id": 837,
@@ -2354,7 +2600,8 @@
       "types": [
         "rock"
       ],
-      "dateAdded": "2026-10-31T11:44:56.623Z"
+      "dateAdded": "2026-10-31T11:44:56.623Z",
+      "cardRarity": "holo"
     },
     "839": {
       "id": 839,
@@ -2364,7 +2611,8 @@
         "rock",
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:44:56.918Z"
+      "dateAdded": "2026-10-31T11:44:56.918Z",
+      "cardRarity": "holo"
     },
     "840": {
       "id": 840,
@@ -2374,7 +2622,8 @@
         "grass",
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:44:57.223Z"
+      "dateAdded": "2026-10-31T11:44:57.223Z",
+      "cardRarity": "holo"
     },
     "849": {
       "id": 849,
@@ -2384,7 +2633,8 @@
         "electric",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:44:57.469Z"
+      "dateAdded": "2026-10-31T11:44:57.469Z",
+      "cardRarity": "holo"
     },
     "850": {
       "id": 850,
@@ -2394,7 +2644,8 @@
         "fire",
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:44:57.776Z"
+      "dateAdded": "2026-10-31T11:44:57.776Z",
+      "cardRarity": "holo"
     },
     "853": {
       "id": 853,
@@ -2403,7 +2654,8 @@
       "types": [
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:44:58.047Z"
+      "dateAdded": "2026-10-31T11:44:58.047Z",
+      "cardRarity": "holo"
     },
     "862": {
       "id": 862,
@@ -2413,7 +2665,8 @@
         "dark",
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:44:58.322Z"
+      "dateAdded": "2026-10-31T11:44:58.322Z",
+      "cardRarity": "holo"
     },
     "872": {
       "id": 872,
@@ -2423,7 +2676,8 @@
         "ice",
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:44:58.654Z"
+      "dateAdded": "2026-10-31T11:44:58.654Z",
+      "cardRarity": "holo"
     },
     "873": {
       "id": 873,
@@ -2433,7 +2687,8 @@
         "ice",
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:44:58.918Z"
+      "dateAdded": "2026-10-31T11:44:58.918Z",
+      "cardRarity": "holo"
     },
     "885": {
       "id": 885,
@@ -2443,7 +2698,8 @@
         "dragon",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:59.224Z"
+      "dateAdded": "2026-10-31T11:44:59.224Z",
+      "cardRarity": "holo"
     },
     "886": {
       "id": 886,
@@ -2453,7 +2709,8 @@
         "dragon",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:44:59.480Z"
+      "dateAdded": "2026-10-31T11:44:59.480Z",
+      "cardRarity": "holo"
     },
     "888": {
       "id": 888,
@@ -2462,7 +2719,8 @@
       "types": [
         "fairy"
       ],
-      "dateAdded": "2026-10-31T11:44:59.739Z"
+      "dateAdded": "2026-10-31T11:44:59.739Z",
+      "cardRarity": "holo"
     },
     "890": {
       "id": 890,
@@ -2472,7 +2730,8 @@
         "poison",
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:45:00.025Z"
+      "dateAdded": "2026-10-31T11:45:00.025Z",
+      "cardRarity": "holo"
     },
     "893": {
       "id": 893,
@@ -2482,7 +2741,8 @@
         "dark",
         "grass"
       ],
-      "dateAdded": "2026-10-31T11:45:00.325Z"
+      "dateAdded": "2026-10-31T11:45:00.325Z",
+      "cardRarity": "holo"
     },
     "897": {
       "id": 897,
@@ -2491,7 +2751,8 @@
       "types": [
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:45:00.627Z"
+      "dateAdded": "2026-10-31T11:45:00.627Z",
+      "cardRarity": "holo"
     },
     "901": {
       "id": 901,
@@ -2501,7 +2762,8 @@
         "ground",
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:45:00.928Z"
+      "dateAdded": "2026-10-31T11:45:00.928Z",
+      "cardRarity": "holo"
     },
     "909": {
       "id": 909,
@@ -2510,7 +2772,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:45:01.229Z"
+      "dateAdded": "2026-10-31T11:45:01.229Z",
+      "cardRarity": "holo"
     },
     "917": {
       "id": 917,
@@ -2519,7 +2782,8 @@
       "types": [
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:45:01.531Z"
+      "dateAdded": "2026-10-31T11:45:01.531Z",
+      "cardRarity": "holo"
     },
     "918": {
       "id": 918,
@@ -2528,7 +2792,8 @@
       "types": [
         "bug"
       ],
-      "dateAdded": "2026-10-31T11:45:01.832Z"
+      "dateAdded": "2026-10-31T11:45:01.832Z",
+      "cardRarity": "holo"
     },
     "935": {
       "id": 935,
@@ -2537,7 +2802,8 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T11:45:02.134Z"
+      "dateAdded": "2026-10-31T11:45:02.134Z",
+      "cardRarity": "holo"
     },
     "936": {
       "id": 936,
@@ -2547,7 +2813,8 @@
         "fire",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:45:02.433Z"
+      "dateAdded": "2026-10-31T11:45:02.433Z",
+      "cardRarity": "holo"
     },
     "941": {
       "id": 941,
@@ -2557,7 +2824,8 @@
         "electric",
         "flying"
       ],
-      "dateAdded": "2026-10-31T11:45:02.737Z"
+      "dateAdded": "2026-10-31T11:45:02.737Z",
+      "cardRarity": "holo"
     },
     "943": {
       "id": 943,
@@ -2566,7 +2834,8 @@
       "types": [
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:45:03.046Z"
+      "dateAdded": "2026-10-31T11:45:03.046Z",
+      "cardRarity": "holo"
     },
     "944": {
       "id": 944,
@@ -2576,7 +2845,8 @@
         "poison",
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:45:03.336Z"
+      "dateAdded": "2026-10-31T11:45:03.336Z",
+      "cardRarity": "holo"
     },
     "945": {
       "id": 945,
@@ -2586,7 +2856,8 @@
         "poison",
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:45:03.640Z"
+      "dateAdded": "2026-10-31T11:45:03.640Z",
+      "cardRarity": "holo"
     },
     "958": {
       "id": 958,
@@ -2596,7 +2867,8 @@
         "fairy",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:45:03.939Z"
+      "dateAdded": "2026-10-31T11:45:03.939Z",
+      "cardRarity": "holo"
     },
     "962": {
       "id": 962,
@@ -2606,7 +2878,8 @@
         "flying",
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:45:04.241Z"
+      "dateAdded": "2026-10-31T11:45:04.241Z",
+      "cardRarity": "holo"
     },
     "965": {
       "id": 965,
@@ -2616,7 +2889,8 @@
         "steel",
         "poison"
       ],
-      "dateAdded": "2026-10-31T11:45:04.542Z"
+      "dateAdded": "2026-10-31T11:45:04.542Z",
+      "cardRarity": "holo"
     },
     "967": {
       "id": 967,
@@ -2626,7 +2900,8 @@
         "dragon",
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:45:04.843Z"
+      "dateAdded": "2026-10-31T11:45:04.843Z",
+      "cardRarity": "holo"
     },
     "972": {
       "id": 972,
@@ -2635,7 +2910,8 @@
       "types": [
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:45:05.142Z"
+      "dateAdded": "2026-10-31T11:45:05.142Z",
+      "cardRarity": "holo"
     },
     "979": {
       "id": 979,
@@ -2645,7 +2921,8 @@
         "fighting",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:45:05.445Z"
+      "dateAdded": "2026-10-31T11:45:05.445Z",
+      "cardRarity": "holo"
     },
     "983": {
       "id": 983,
@@ -2655,7 +2932,8 @@
         "dark",
         "steel"
       ],
-      "dateAdded": "2026-10-31T11:45:05.701Z"
+      "dateAdded": "2026-10-31T11:45:05.701Z",
+      "cardRarity": "holo"
     },
     "999": {
       "id": 999,
@@ -2664,7 +2942,8 @@
       "types": [
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:45:06.046Z"
+      "dateAdded": "2026-10-31T11:45:06.046Z",
+      "cardRarity": "holo"
     },
     "1000": {
       "id": 1000,
@@ -2674,7 +2953,8 @@
         "steel",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:45:06.345Z"
+      "dateAdded": "2026-10-31T11:45:06.345Z",
+      "cardRarity": "holo"
     },
     "1002": {
       "id": 1002,
@@ -2684,7 +2964,8 @@
         "dark",
         "ice"
       ],
-      "dateAdded": "2026-10-31T11:45:06.603Z"
+      "dateAdded": "2026-10-31T11:45:06.603Z",
+      "cardRarity": "holo"
     },
     "1005": {
       "id": 1005,
@@ -2694,7 +2975,8 @@
         "dragon",
         "dark"
       ],
-      "dateAdded": "2026-10-31T11:45:06.856Z"
+      "dateAdded": "2026-10-31T11:45:06.856Z",
+      "cardRarity": "holo"
     },
     "1007": {
       "id": 1007,
@@ -2704,7 +2986,8 @@
         "fighting",
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:45:07.150Z"
+      "dateAdded": "2026-10-31T11:45:07.150Z",
+      "cardRarity": "holo"
     },
     "1008": {
       "id": 1008,
@@ -2714,7 +2997,8 @@
         "electric",
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:45:07.451Z"
+      "dateAdded": "2026-10-31T11:45:07.451Z",
+      "cardRarity": "holo"
     },
     "1013": {
       "id": 1013,
@@ -2724,7 +3008,8 @@
         "grass",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:45:07.752Z"
+      "dateAdded": "2026-10-31T11:45:07.752Z",
+      "cardRarity": "holo"
     },
     "1014": {
       "id": 1014,
@@ -2734,7 +3019,8 @@
         "poison",
         "fighting"
       ],
-      "dateAdded": "2026-10-31T11:45:08.077Z"
+      "dateAdded": "2026-10-31T11:45:08.077Z",
+      "cardRarity": "holo"
     },
     "1015": {
       "id": 1015,
@@ -2744,7 +3030,8 @@
         "poison",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:45:08.756Z"
+      "dateAdded": "2026-10-31T11:45:08.756Z",
+      "cardRarity": "holo"
     },
     "1018": {
       "id": 1018,
@@ -2754,7 +3041,8 @@
         "steel",
         "dragon"
       ],
-      "dateAdded": "2026-10-31T11:45:09.056Z"
+      "dateAdded": "2026-10-31T11:45:09.056Z",
+      "cardRarity": "holo"
     },
     "1022": {
       "id": 1022,
@@ -2764,7 +3052,8 @@
         "rock",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:45:09.358Z"
+      "dateAdded": "2026-10-31T11:45:09.358Z",
+      "cardRarity": "holo"
     },
     "1023": {
       "id": 1023,
@@ -2774,7 +3063,8 @@
         "steel",
         "psychic"
       ],
-      "dateAdded": "2026-10-31T11:45:09.657Z"
+      "dateAdded": "2026-10-31T11:45:09.657Z",
+      "cardRarity": "holo"
     },
     "1024": {
       "id": 1024,
@@ -2783,7 +3073,8 @@
       "types": [
         "normal"
       ],
-      "dateAdded": "2026-10-31T11:45:09.922Z"
+      "dateAdded": "2026-10-31T11:45:09.922Z",
+      "cardRarity": "holo"
     },
     "1025": {
       "id": 1025,
@@ -2793,7 +3084,8 @@
         "poison",
         "ghost"
       ],
-      "dateAdded": "2026-10-31T11:45:10.193Z"
+      "dateAdded": "2026-10-31T11:45:10.193Z",
+      "cardRarity": "holo"
     }
   }
 }

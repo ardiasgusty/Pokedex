@@ -38,6 +38,10 @@
             <span class="stat-label">Belum Ada</span>
             <span class="stat-val" id="stat-missing-count">0</span>
           </div>
+          <div class="stat-badge holo-badge">
+            <span class="stat-label">Kartu Holo ✨</span>
+            <span class="stat-val" id="stat-holo-count">0</span>
+          </div>
           <div class="stat-badge progress-badge">
             <span class="stat-label">Progress</span>
             <span class="stat-val" id="stat-percent">0%</span>
@@ -59,6 +63,16 @@
               <input type="number" id="poke-id-input" min="1" max="1025" placeholder="Contoh: 25 (Pikachu)" required autocomplete="off">
               <button type="button" id="btn-preview" class="btn secondary">Cek Info</button>
             </div>
+          </div>
+
+          <div class="input-group">
+            <label for="poke-rarity-select">Tipe Kartu / Finishing:</label>
+            <select id="poke-rarity-select" class="custom-select">
+              <option value="holo" selected>✨ Holofoil / Foil (Holo)</option>
+              <option value="reverse-holo">🌈 Reverse Holo</option>
+              <option value="normal">⚪ Biasa (Non-Holo / Regular)</option>
+              <option value="secret-rare">🌟 Secret / Ultra Rare (Full Art)</option>
+            </select>
           </div>
 
           <!-- Quick Preview Box -->
@@ -124,9 +138,11 @@
         </div>
 
         <div class="filter-toggles">
-          <button id="filter-all" class="toggle-btn active" data-filter="all">Semua Slot</button>
-          <button id="filter-missing" class="toggle-btn" data-filter="missing">Slot Kosong Saja</button>
+          <button id="filter-all" class="toggle-btn active" data-filter="all">Semua (#1-1025)</button>
           <button id="filter-owned" class="toggle-btn" data-filter="owned">Terkoleksi Saja</button>
+          <button id="filter-missing" class="toggle-btn" data-filter="missing">Belum Ada Saja</button>
+          <button id="filter-holo" class="toggle-btn" data-filter="holo">✨ Holo Saja</button>
+          <button id="filter-normal" class="toggle-btn" data-filter="normal">⚪ Non-Holo</button>
         </div>
       </div>
     </section>

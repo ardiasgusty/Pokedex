@@ -760,13 +760,44 @@ body {
   margin-top: 4px;
 }
 
-/* OWNED SLOT STATE (Pokemon Card Visual) */
 .pocket-slot.owned {
   border: 2px solid rgba(255, 215, 0, 0.6);
   background: linear-gradient(160deg, #1d2536 0%, #131822 100%);
   box-shadow: 
     0 8px 20px rgba(0, 0, 0, 0.4),
     inset 0 0 15px rgba(255, 215, 0, 0.1);
+}
+
+/* --- Holo Special Visuals --- */
+.pocket-slot.owned.is-holo {
+  border: 2px solid #ffcb05;
+  box-shadow: 
+    0 8px 25px rgba(255, 203, 5, 0.25),
+    inset 0 0 20px rgba(255, 203, 5, 0.15);
+  background: linear-gradient(145deg, #221c38 0%, #171d2b 100%);
+}
+
+.pocket-slot.owned.is-reverse-holo {
+  border: 2px solid #00e5ff;
+  box-shadow: 
+    0 8px 25px rgba(0, 229, 255, 0.25),
+    inset 0 0 20px rgba(0, 229, 255, 0.15);
+  background: linear-gradient(145deg, #132433 0%, #18202b 100%);
+}
+
+.pocket-slot.owned.is-secret-rare {
+  border: 2px solid #f43f5e;
+  box-shadow: 
+    0 8px 30px rgba(244, 63, 94, 0.35),
+    inset 0 0 25px rgba(244, 63, 94, 0.2);
+  background: linear-gradient(145deg, #2e1026 0%, #191428 100%);
+}
+
+/* Regular / Non-Holo Clean look */
+.pocket-slot.owned.is-normal {
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  background: linear-gradient(160deg, #1c2230 0%, #121620 100%);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
 }
 
 .card-shine-effect {
@@ -784,6 +815,21 @@ body {
   transform: skewX(-25deg);
   pointer-events: none;
   transition: 0.6s ease;
+}
+
+/* Rainbow Holo Sheen */
+.is-holo .card-shine-effect,
+.is-reverse-holo .card-shine-effect,
+.is-secret-rare .card-shine-effect {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 0, 128, 0.25) 25%,
+    rgba(255, 203, 5, 0.35) 50%,
+    rgba(0, 229, 255, 0.25) 75%,
+    transparent 100%
+  );
+  width: 75%;
 }
 
 .pocket-slot.owned:hover .card-shine-effect {
@@ -807,11 +853,73 @@ body {
 
 .pokemon-name {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: #fff;
   text-transform: capitalize;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Rarity Badges */
+.card-rarity-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  transition: all 0.2s ease;
+}
+
+.card-rarity-badge:hover {
+  transform: scale(1.08);
+}
+
+.rarity-holo {
+  background: linear-gradient(135deg, rgba(255, 203, 5, 0.25), rgba(255, 107, 107, 0.25));
+  color: #ffcb05;
+  border: 1px solid rgba(255, 203, 5, 0.6);
+  box-shadow: 0 0 8px rgba(255, 203, 5, 0.3);
+}
+
+.rarity-reverse-holo {
+  background: rgba(0, 229, 255, 0.2);
+  color: #00e5ff;
+  border: 1px solid rgba(0, 229, 255, 0.6);
+}
+
+.rarity-normal {
+  background: rgba(255, 255, 255, 0.1);
+  color: #cbd5e1;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.rarity-secret-rare {
+  background: linear-gradient(135deg, rgba(244, 63, 94, 0.3), rgba(168, 85, 247, 0.3));
+  color: #f43f5e;
+  border: 1px solid rgba(244, 63, 94, 0.7);
+  box-shadow: 0 0 10px rgba(244, 63, 94, 0.4);
+}
+
+.custom-select {
+  background: #0f141f;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  color: #fff;
+  font-size: 0.9rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom-select:focus {
+  border-color: var(--pokemon-yellow);
+}
+
+.stat-badge.holo-badge .stat-val {
+  color: #facc15;
 }
 
 .pokemon-artwork-box {

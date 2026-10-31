@@ -52,11 +52,13 @@ const el = {
   // Stats
   statOwnedCount: document.getElementById('stat-owned-count'),
   statMissingCount: document.getElementById('stat-missing-count'),
+  statHoloCount: document.getElementById('stat-holo-count'),
   statPercent: document.getElementById('stat-percent'),
 
   // Form
   addForm: document.getElementById('add-pokemon-form'),
   pokeIdInput: document.getElementById('poke-id-input'),
+  pokeRaritySelect: document.getElementById('poke-rarity-select'),
   btnPreview: document.getElementById('btn-preview'),
   quickPreview: document.getElementById('quick-preview'),
   previewImg: document.getElementById('preview-img'),
@@ -598,12 +600,15 @@ function exportEncryptedConfig() {
 
 // --- UI Stats & Helpers ---
 function updateStats() {
-  const ownedCount = Object.keys(appState.ownedCards).length;
+  const cards = Object.values(appState.ownedCards);
+  const ownedCount = cards.length;
   const missingCount = TOTAL_POKEMON - ownedCount;
   const percentage = ((ownedCount / TOTAL_POKEMON) * 100).toFixed(1);
+  const holoCount = cards.filter(c => (c.cardRarity || 'holo') === 'holo' || c.cardRarity === 'reverse-holo' || c.cardRarity === 'secret-rare').length;
 
   el.statOwnedCount.textContent = ownedCount;
   el.statMissingCount.textContent = missingCount;
+  if (el.statHoloCount) el.statHoloCount.textContent = holoCount;
   el.statPercent.textContent = `${percentage}%`;
 }
 
@@ -616,65 +621,109 @@ function showToast(message) {
   }, 3500);
 }
 
+// Helper: ambil list item yang sesuai dengan filter aktif saat ini
+function getFilteredCardItems() {
+  const mode = appState.filterMode; // 'all', 'owned', 'missing', 'holo', 'normal'
+  const items = [];
+
+  for (let id = 1; id <= TOTAL_POKEMON; id++) {
+    const isOwned = !!appState.ownedCards[id];
+    const card = appState.ownedCards[id];
+    const rarity = (card?.cardRarity || 'holo');
+
+    if (mode === 'all') {
+      items.push({ id, isOwned, card });
+    } else if (mode === 'owned') {
+      if (isOwned) items.push({ id, isOwned, card });
+    } else if (mode === 'missing') {
+      if (!isOwned) items.push({ id, isOwned: false, card: null });
+    } else if (mode === 'holo') {
+      if (isOwned && (rarity === 'holo' || rarity === 'reverse-holo' || rarity === 'secret-rare')) {
+        items.push({ id, isOwned, card });
+      }
+    } else if (mode === 'normal') {
+      if (isOwned && rarity === 'normal') {
+        items.push({ id, isOwned, card });
+      }
+    }
+  }
+  return items;
+}
+
 // --- Binder Grid Rendering (9-Pocket Layout) ---
 async function renderBinderPage() {
-  const page = appState.currentPage;
-  const startId = (page - 1) * CARDS_PER_PAGE + 1;
-  const endId = Math.min(page * CARDS_PER_PAGE, TOTAL_POKEMON);
+  const filteredItems = getFilteredCardItems();
+  const totalFiltered = filteredItems.length;
+  const maxPages = Math.max(1, Math.ceil(totalFiltered / CARDS_PER_PAGE));
 
-  // Update header text
+  // Pastikan current page tidak melebihi max pages untuk filter ini
+  if (appState.currentPage > maxPages) {
+    appState.currentPage = maxPages;
+  }
+  const page = appState.currentPage;
+
+  const startIndex = (page - 1) * CARDS_PER_PAGE;
+  const pageItems = filteredItems.slice(startIndex, startIndex + CARDS_PER_PAGE);
+
+  // Update header pagination text
   el.currentPageDisplay.textContent = page;
-  el.totalPagesDisplay.textContent = `/ ${TOTAL_PAGES}`;
-  el.pagePokedexRange.textContent = `(#${startId} - #${endId})`;
-  el.sheetHeaderRange.textContent = `Pockets #${startId} - #${endId}`;
+  el.totalPagesDisplay.textContent = `/ ${maxPages}`;
+  
+  if (appState.filterMode === 'all') {
+    const startId = (page - 1) * CARDS_PER_PAGE + 1;
+    const endId = Math.min(page * CARDS_PER_PAGE, TOTAL_POKEMON);
+    el.pagePokedexRange.textContent = `(#${startId} - #${endId})`;
+    el.sheetHeaderRange.textContent = `Pockets #${startId} - #${endId}`;
+  } else {
+    el.pagePokedexRange.textContent = `(${totalFiltered} kartu cocok)`;
+    el.sheetHeaderRange.textContent = `Filter: ${appState.filterMode.toUpperCase()} (${startIndex + 1} - ${startIndex + pageItems.length} dari ${totalFiltered})`;
+  }
 
   // Update nav buttons disabled state
   el.btnFirstPage.disabled = (page === 1);
   el.btnPrevPage.disabled = (page === 1);
-  el.btnNextPage.disabled = (page === TOTAL_PAGES);
-  el.btnLastPage.disabled = (page === TOTAL_PAGES);
+  el.btnNextPage.disabled = (page === maxPages);
+  el.btnLastPage.disabled = (page === maxPages);
 
   // Clear pocket grid
   el.pocketGrid.innerHTML = '';
 
-  for (let slotIndex = 0; slotIndex < CARDS_PER_PAGE; slotIndex++) {
-    const pokeId = startId + slotIndex;
-    
-    // If we exceed 1025 in the last page, render inactive pocket
-    if (pokeId > TOTAL_POKEMON) {
-      const emptySlot = document.createElement('div');
-      emptySlot.className = 'pocket-slot inactive';
-      emptySlot.innerHTML = `<div class="empty-content"><span class="empty-hint">Slot Kosong</span></div>`;
-      el.pocketGrid.appendChild(emptySlot);
-      continue;
-    }
+  if (pageItems.length === 0) {
+    el.pocketGrid.innerHTML = `
+      <div style="grid-column: 1 / -1; text-align: center; padding: 48px; color: var(--text-muted);">
+        <h3>Tidak ada kartu yang cocok dengan filter "${appState.filterMode}".</h3>
+        <p style="margin-top: 8px;">Pilih filter lain atau tambahkan kartu baru.</p>
+      </div>
+    `;
+    return;
+  }
 
-    const isOwned = !!appState.ownedCards[pokeId];
-    
-    // Check filter
-    if (appState.filterMode === 'owned' && !isOwned) {
-      const dimmedSlot = document.createElement('div');
-      dimmedSlot.className = 'pocket-slot empty dimmed';
-      dimmedSlot.style.opacity = '0.25';
-      dimmedSlot.innerHTML = `<span class="slot-badge-num">#${pokeId}</span><div class="empty-content"><p class="empty-status-tag">Kosong</p></div>`;
-      el.pocketGrid.appendChild(dimmedSlot);
-      continue;
-    }
-    if (appState.filterMode === 'missing' && isOwned) {
-      const dimmedSlot = document.createElement('div');
-      dimmedSlot.className = 'pocket-slot owned dimmed';
-      dimmedSlot.style.opacity = '0.25';
-      dimmedSlot.innerHTML = `<span class="slot-badge-num">#${pokeId}</span><div class="empty-content"><p class="empty-status-tag">Sudah Ada</p></div>`;
-      el.pocketGrid.appendChild(dimmedSlot);
-      continue;
-    }
+  for (const item of pageItems) {
+    const pokeId = item.id;
+    const isOwned = item.isOwned;
+    const card = item.card;
 
     const slotEl = document.createElement('div');
-    slotEl.className = `pocket-slot ${isOwned ? 'owned' : 'empty'}`;
+    const rarityClass = isOwned ? `is-${card.cardRarity || 'holo'}` : '';
+    slotEl.className = `pocket-slot ${isOwned ? 'owned' : 'empty'} ${rarityClass}`;
     slotEl.dataset.id = pokeId;
 
     if (isOwned) {
-      const card = appState.ownedCards[pokeId];
+      const rarity = card.cardRarity || 'holo';
+      let rarityLabel = '✨ Holo';
+      let rarityBadgeClass = 'rarity-holo';
+
+      if (rarity === 'reverse-holo') {
+        rarityLabel = '🌈 Rev Holo';
+        rarityBadgeClass = 'rarity-reverse-holo';
+      } else if (rarity === 'normal') {
+        rarityLabel = '⚪ Non-Holo';
+        rarityBadgeClass = 'rarity-normal';
+      } else if (rarity === 'secret-rare') {
+        rarityLabel = '🌟 Secret Rare';
+        rarityBadgeClass = 'rarity-secret-rare';
+      }
+
       const typeBadges = (card.types || ['normal']).map(t => 
         `<span class="type-pill type-${t.toLowerCase()}">${t}</span>`
       ).join('');
@@ -686,13 +735,14 @@ async function renderBinderPage() {
         <div class="card-content">
           <div class="card-top">
             <span class="pokemon-name">${card.name}</span>
+            <span class="card-rarity-badge ${rarityBadgeClass}" title="Klik untuk ubah jenis kartu (Holo/Biasa)" data-action="toggle-rarity" data-id="${pokeId}">${rarityLabel}</span>
           </div>
           <div class="pokemon-artwork-box">
             <img class="pokemon-artwork" src="${card.sprite}" alt="${card.name}" loading="lazy">
           </div>
           <div class="card-bottom">
             <div class="card-types">${typeBadges}</div>
-            <span class="owned-badge">✓ Koleksi</span>
+            <span class="owned-badge">✓ Tersimpan</span>
           </div>
         </div>
       `;
@@ -716,10 +766,22 @@ async function renderBinderPage() {
 
     el.pocketGrid.appendChild(slotEl);
   }
+
+  // Jika halaman terakhir kurang dari 9 kartu pada mode filter, isi slot kosong sisa untuk kerapian 3x3 layout
+  const remainder = CARDS_PER_PAGE - pageItems.length;
+  if (remainder > 0 && pageItems.length > 0) {
+    for (let r = 0; r < remainder; r++) {
+      const placeholder = document.createElement('div');
+      placeholder.className = 'pocket-slot inactive';
+      placeholder.style.opacity = '0.15';
+      placeholder.innerHTML = `<div class="empty-content"><span class="empty-hint">-</span></div>`;
+      el.pocketGrid.appendChild(placeholder);
+    }
+  }
 }
 
 // --- Card Operations ---
-async function addCardToBinder(pokeId, autoJump = true) {
+async function addCardToBinder(pokeId, autoJump = true, specifiedRarity = null) {
   const idNum = parseInt(pokeId, 10);
   if (isNaN(idNum) || idNum < 1 || idNum > TOTAL_POKEMON) {
     alert(`Nomor Pokédex tidak valid! Masukkan antara 1 sampai ${TOTAL_POKEMON}.`);
@@ -728,28 +790,57 @@ async function addCardToBinder(pokeId, autoJump = true) {
 
   showToast(`Mengambil info Pokémon #${idNum}...`);
   const data = await fetchPokemonData(idNum);
+  const rarity = specifiedRarity || (el.pokeRaritySelect ? el.pokeRaritySelect.value : 'holo');
 
   appState.ownedCards[idNum] = {
     id: idNum,
     name: data.name,
     sprite: data.sprite,
     types: data.types,
+    cardRarity: rarity,
     dateAdded: new Date().toISOString()
   };
 
   saveDataToLocalStorage();
   updateStats();
 
-  if (autoJump) {
+  if (autoJump && appState.filterMode === 'all') {
     // Jump to the binder page where this card is placed
     const targetPage = Math.ceil(idNum / CARDS_PER_PAGE);
     appState.currentPage = targetPage;
   }
 
   renderBinderPage();
-  showToast(`✅ Pokémon #${idNum} (${data.name}) berhasil disimpan!`);
+  showToast(`✅ Pokémon #${idNum} (${data.name}) [${rarity.toUpperCase()}] berhasil disimpan!`);
 
   // Auto-sync ke GitHub jika token terpasang
+  if (appState.isGitHubConnected) {
+    pushDataToGitHub(true);
+  }
+}
+
+// Fitur ubah tipe kartu (Holo -> Normal -> Reverse Holo -> Secret Rare) secara cepat
+function toggleCardRarity(pokeId) {
+  const idNum = parseInt(pokeId, 10);
+  const card = appState.ownedCards[idNum];
+  if (!card) return;
+
+  const cycle = ['holo', 'normal', 'reverse-holo', 'secret-rare'];
+  const currentIndex = cycle.indexOf(card.cardRarity || 'holo');
+  const nextRarity = cycle[(currentIndex + 1) % cycle.length];
+
+  card.cardRarity = nextRarity;
+  saveDataToLocalStorage();
+  updateStats();
+  renderBinderPage();
+
+  let label = '✨ Holo';
+  if (nextRarity === 'normal') label = '⚪ Non-Holo (Biasa)';
+  else if (nextRarity === 'reverse-holo') label = '🌈 Reverse Holo';
+  else if (nextRarity === 'secret-rare') label = '🌟 Secret Rare';
+
+  showToast(`Kartu #${idNum} diubah menjadi: ${label}`);
+
   if (appState.isGitHubConnected) {
     pushDataToGitHub(true);
   }
@@ -965,16 +1056,24 @@ function setupEventListeners() {
       el.filterButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       appState.filterMode = btn.dataset.filter;
+      appState.currentPage = 1; // Reset ke halaman pertama saat filter berubah
       renderBinderPage();
     });
   });
 
-  // Delegated clicks on Pocket Grid (Add / Remove)
+  // Delegated clicks on Pocket Grid (Add / Remove / Toggle Rarity)
   el.pocketGrid.addEventListener('click', (e) => {
     const removeBtn = e.target.closest('[data-action="remove"]');
     if (removeBtn) {
       const id = removeBtn.dataset.id;
       removeCardFromBinder(id);
+      return;
+    }
+
+    const toggleRarityBtn = e.target.closest('[data-action="toggle-rarity"]');
+    if (toggleRarityBtn) {
+      const id = toggleRarityBtn.dataset.id;
+      toggleCardRarity(id);
       return;
     }
 
