@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T13:13:33.787Z",
-  "totalOwned": 293,
+  "lastUpdated": "2026-10-31T13:16:21.764Z",
+  "totalOwned": 294,
   "owned": {
     "4": {
       "id": 4,
@@ -1869,6 +1869,17 @@
       ],
       "dateAdded": "2026-10-31T11:44:36.333Z",
       "cardRarity": "holo"
+    },
+    "589": {
+      "id": 589,
+      "name": "escavalier",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/589.png",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "cardRarity": "holo",
+      "dateAdded": "2026-10-31T13:16:20.520Z"
     },
     "590": {
       "id": 590,
