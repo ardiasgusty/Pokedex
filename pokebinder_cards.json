@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T11:15:00.851Z",
-  "totalOwned": 9,
+  "lastUpdated": "2026-10-31T11:45:11.110Z",
+  "totalOwned": 292,
   "owned": {
     "4": {
       "id": 4,
@@ -87,6 +87,2713 @@
         "ground"
       ],
       "dateAdded": "2026-10-31T11:15:00.469Z"
+    },
+    "37": {
+      "id": 37,
+      "name": "vulpix",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "38": {
+      "id": 38,
+      "name": "ninetales",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "39": {
+      "id": 39,
+      "name": "jigglypuff",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+      "types": [
+        "normal",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "41": {
+      "id": 41,
+      "name": "zubat",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+      "types": [
+        "poison",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "43": {
+      "id": 43,
+      "name": "oddish",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "44": {
+      "id": 44,
+      "name": "gloom",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "45": {
+      "id": 45,
+      "name": "vileplume",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "46": {
+      "id": 46,
+      "name": "paras",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "47": {
+      "id": 47,
+      "name": "parasect",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "48": {
+      "id": 48,
+      "name": "venonat",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "50": {
+      "id": 50,
+      "name": "diglett",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+      "types": [
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "51": {
+      "id": 51,
+      "name": "dugtrio",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+      "types": [
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "52": {
+      "id": 52,
+      "name": "meowth",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.391Z"
+    },
+    "55": {
+      "id": 55,
+      "name": "golduck",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.395Z"
+    },
+    "57": {
+      "id": 57,
+      "name": "primeape",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+      "types": [
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.398Z"
+    },
+    "59": {
+      "id": 59,
+      "name": "arcanine",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.400Z"
+    },
+    "63": {
+      "id": 63,
+      "name": "abra",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.401Z"
+    },
+    "71": {
+      "id": 71,
+      "name": "victreebel",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.403Z"
+    },
+    "74": {
+      "id": 74,
+      "name": "geodude",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.405Z"
+    },
+    "79": {
+      "id": 79,
+      "name": "slowpoke",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.407Z"
+    },
+    "80": {
+      "id": 80,
+      "name": "slowbro",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.409Z"
+    },
+    "81": {
+      "id": 81,
+      "name": "magnemite",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+      "types": [
+        "electric",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.411Z"
+    },
+    "85": {
+      "id": 85,
+      "name": "dodrio",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.412Z"
+    },
+    "92": {
+      "id": 92,
+      "name": "gastly",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.414Z"
+    },
+    "95": {
+      "id": 95,
+      "name": "onix",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.416Z"
+    },
+    "96": {
+      "id": 96,
+      "name": "drowzee",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.418Z"
+    },
+    "102": {
+      "id": 102,
+      "name": "exeggcute",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.420Z"
+    },
+    "103": {
+      "id": 103,
+      "name": "exeggutor",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+      "types": [
+        "grass",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.421Z"
+    },
+    "108": {
+      "id": 108,
+      "name": "lickitung",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.423Z"
+    },
+    "112": {
+      "id": 112,
+      "name": "rhydon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+      "types": [
+        "ground",
+        "rock"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.426Z"
+    },
+    "114": {
+      "id": 114,
+      "name": "tangela",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+      "types": [
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.428Z"
+    },
+    "118": {
+      "id": 118,
+      "name": "goldeen",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.429Z"
+    },
+    "119": {
+      "id": 119,
+      "name": "seaking",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.431Z"
+    },
+    "124": {
+      "id": 124,
+      "name": "jynx",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+      "types": [
+        "ice",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.433Z"
+    },
+    "130": {
+      "id": 130,
+      "name": "gyarados",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+      "types": [
+        "water",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.435Z"
+    },
+    "131": {
+      "id": 131,
+      "name": "lapras",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.438Z"
+    },
+    "135": {
+      "id": 135,
+      "name": "jolteon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+      "types": [
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.439Z"
+    },
+    "136": {
+      "id": 136,
+      "name": "flareon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.442Z"
+    },
+    "139": {
+      "id": 139,
+      "name": "omastar",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.443Z"
+    },
+    "141": {
+      "id": 141,
+      "name": "kabutops",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.445Z"
+    },
+    "146": {
+      "id": 146,
+      "name": "moltres",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+      "types": [
+        "fire",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.447Z"
+    },
+    "147": {
+      "id": 147,
+      "name": "dratini",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+      "types": [
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.449Z"
+    },
+    "149": {
+      "id": 149,
+      "name": "dragonite",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.452Z"
+    },
+    "150": {
+      "id": 150,
+      "name": "mewtwo",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.454Z"
+    },
+    "153": {
+      "id": 153,
+      "name": "bayleef",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
+      "types": [
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:43:56.768Z"
+    },
+    "159": {
+      "id": 159,
+      "name": "croconaw",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:43:57.103Z"
+    },
+    "163": {
+      "id": 163,
+      "name": "hoothoot",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:43:57.358Z"
+    },
+    "177": {
+      "id": 177,
+      "name": "natu",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/177.png",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:43:57.606Z"
+    },
+    "181": {
+      "id": 181,
+      "name": "ampharos",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
+      "types": [
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:43:57.909Z"
+    },
+    "183": {
+      "id": 183,
+      "name": "marill",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/183.png",
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:43:58.210Z"
+    },
+    "185": {
+      "id": 185,
+      "name": "sudowoodo",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png",
+      "types": [
+        "rock"
+      ],
+      "dateAdded": "2026-10-31T11:43:58.512Z"
+    },
+    "196": {
+      "id": 196,
+      "name": "espeon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:58.810Z"
+    },
+    "200": {
+      "id": 200,
+      "name": "misdreavus",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png",
+      "types": [
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:43:59.116Z"
+    },
+    "202": {
+      "id": 202,
+      "name": "wobbuffet",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:43:59.412Z"
+    },
+    "206": {
+      "id": 206,
+      "name": "dunsparce",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/206.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:43:59.715Z"
+    },
+    "208": {
+      "id": 208,
+      "name": "steelix",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
+      "types": [
+        "steel",
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:44:00.017Z"
+    },
+    "215": {
+      "id": 215,
+      "name": "sneasel",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:44:00.320Z"
+    },
+    "218": {
+      "id": 218,
+      "name": "slugma",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:01.018Z"
+    },
+    "219": {
+      "id": 219,
+      "name": "magcargo",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/219.png",
+      "types": [
+        "fire",
+        "rock"
+      ],
+      "dateAdded": "2026-10-31T11:44:01.321Z"
+    },
+    "228": {
+      "id": 228,
+      "name": "houndour",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
+      "types": [
+        "dark",
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:01.624Z"
+    },
+    "233": {
+      "id": 233,
+      "name": "porygon2",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/233.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:01.923Z"
+    },
+    "237": {
+      "id": 237,
+      "name": "hitmontop",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/237.png",
+      "types": [
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:02.226Z"
+    },
+    "243": {
+      "id": 243,
+      "name": "raikou",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/243.png",
+      "types": [
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:44:02.526Z"
+    },
+    "244": {
+      "id": 244,
+      "name": "entei",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/244.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:03.124Z"
+    },
+    "246": {
+      "id": 246,
+      "name": "larvitar",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png",
+      "types": [
+        "rock",
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:44:03.829Z"
+    },
+    "248": {
+      "id": 248,
+      "name": "tyranitar",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
+      "types": [
+        "rock",
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:44:04.132Z"
+    },
+    "263": {
+      "id": 263,
+      "name": "zigzagoon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:04.431Z"
+    },
+    "265": {
+      "id": 265,
+      "name": "wurmple",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+      "types": [
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:44:04.731Z"
+    },
+    "266": {
+      "id": 266,
+      "name": "silcoon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/266.png",
+      "types": [
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:44:04.994Z"
+    },
+    "267": {
+      "id": 267,
+      "name": "beautifly",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:05.249Z"
+    },
+    "268": {
+      "id": 268,
+      "name": "cascoon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/268.png",
+      "types": [
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:44:05.506Z"
+    },
+    "269": {
+      "id": 269,
+      "name": "dustox",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/269.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:44:05.759Z"
+    },
+    "271": {
+      "id": 271,
+      "name": "lombre",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/271.png",
+      "types": [
+        "water",
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:06.138Z"
+    },
+    "280": {
+      "id": 280,
+      "name": "ralts",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:06.440Z"
+    },
+    "281": {
+      "id": 281,
+      "name": "kirlia",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png",
+      "types": [
+        "psychic",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:06.741Z"
+    },
+    "291": {
+      "id": 291,
+      "name": "ninjask",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/291.png",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:07.044Z"
+    },
+    "297": {
+      "id": 297,
+      "name": "hariyama",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/297.png",
+      "types": [
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:07.301Z"
+    },
+    "300": {
+      "id": 300,
+      "name": "skitty",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:07.569Z"
+    },
+    "301": {
+      "id": 301,
+      "name": "delcatty",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/301.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:08.346Z"
+    },
+    "303": {
+      "id": 303,
+      "name": "mawile",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
+      "types": [
+        "steel",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:08.646Z"
+    },
+    "307": {
+      "id": 307,
+      "name": "meditite",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
+      "types": [
+        "fighting",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:08.948Z"
+    },
+    "309": {
+      "id": 309,
+      "name": "electrike",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png",
+      "types": [
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:44:09.250Z"
+    },
+    "318": {
+      "id": 318,
+      "name": "carvanha",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png",
+      "types": [
+        "water",
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:44:09.751Z"
+    },
+    "320": {
+      "id": 320,
+      "name": "wailmer",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/320.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:44:10.018Z"
+    },
+    "322": {
+      "id": 322,
+      "name": "numel",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png",
+      "types": [
+        "fire",
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:44:10.265Z"
+    },
+    "328": {
+      "id": 328,
+      "name": "trapinch",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/328.png",
+      "types": [
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:44:10.552Z"
+    },
+    "337": {
+      "id": 337,
+      "name": "lunatone",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/337.png",
+      "types": [
+        "rock",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:10.855Z"
+    },
+    "338": {
+      "id": 338,
+      "name": "solrock",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/338.png",
+      "types": [
+        "rock",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:11.124Z"
+    },
+    "350": {
+      "id": 350,
+      "name": "milotic",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:44:11.390Z"
+    },
+    "353": {
+      "id": 353,
+      "name": "shuppet",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/353.png",
+      "types": [
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:11.757Z"
+    },
+    "355": {
+      "id": 355,
+      "name": "duskull",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/355.png",
+      "types": [
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:12.006Z"
+    },
+    "361": {
+      "id": 361,
+      "name": "snorunt",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
+      "types": [
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:44:12.258Z"
+    },
+    "368": {
+      "id": 368,
+      "name": "gorebyss",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/368.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:44:12.559Z"
+    },
+    "376": {
+      "id": 376,
+      "name": "metagross",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:12.861Z"
+    },
+    "383": {
+      "id": 383,
+      "name": "groudon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png",
+      "types": [
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:44:13.163Z"
+    },
+    "384": {
+      "id": 384,
+      "name": "rayquaza",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png",
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:13.465Z"
+    },
+    "393": {
+      "id": 393,
+      "name": "piplup",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:44:13.764Z"
+    },
+    "396": {
+      "id": 396,
+      "name": "starly",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/396.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:14.063Z"
+    },
+    "398": {
+      "id": 398,
+      "name": "staraptor",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/398.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:14.367Z"
+    },
+    "408": {
+      "id": 408,
+      "name": "cranidos",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/408.png",
+      "types": [
+        "rock"
+      ],
+      "dateAdded": "2026-10-31T11:44:14.669Z"
+    },
+    "410": {
+      "id": 410,
+      "name": "shieldon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/410.png",
+      "types": [
+        "rock",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:14.967Z"
+    },
+    "411": {
+      "id": 411,
+      "name": "bastiodon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png",
+      "types": [
+        "rock",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:15.670Z"
+    },
+    "429": {
+      "id": 429,
+      "name": "mismagius",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/429.png",
+      "types": [
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:15.976Z"
+    },
+    "430": {
+      "id": 430,
+      "name": "honchkrow",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/430.png",
+      "types": [
+        "dark",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:16.272Z"
+    },
+    "436": {
+      "id": 436,
+      "name": "bronzor",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/436.png",
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:17.477Z"
+    },
+    "437": {
+      "id": 437,
+      "name": "bronzong",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/437.png",
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:17.779Z"
+    },
+    "442": {
+      "id": 442,
+      "name": "spiritomb",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/442.png",
+      "types": [
+        "ghost",
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:44:18.037Z"
+    },
+    "443": {
+      "id": 443,
+      "name": "gible",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png",
+      "types": [
+        "dragon",
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:44:18.312Z"
+    },
+    "447": {
+      "id": 447,
+      "name": "riolu",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png",
+      "types": [
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:18.683Z"
+    },
+    "449": {
+      "id": 449,
+      "name": "hippopotas",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/449.png",
+      "types": [
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:44:18.983Z"
+    },
+    "450": {
+      "id": 450,
+      "name": "hippowdon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png",
+      "types": [
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:44:19.284Z"
+    },
+    "468": {
+      "id": 468,
+      "name": "togekiss",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/468.png",
+      "types": [
+        "fairy",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:19.549Z"
+    },
+    "477": {
+      "id": 477,
+      "name": "dusknoir",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/477.png",
+      "types": [
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:19.886Z"
+    },
+    "479": {
+      "id": 479,
+      "name": "rotom",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/479.png",
+      "types": [
+        "electric",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:20.148Z"
+    },
+    "485": {
+      "id": 485,
+      "name": "heatran",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/485.png",
+      "types": [
+        "fire",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:20.435Z"
+    },
+    "486": {
+      "id": 486,
+      "name": "regigigas",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/486.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:20.789Z"
+    },
+    "488": {
+      "id": 488,
+      "name": "cresselia",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/488.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:21.090Z"
+    },
+    "492": {
+      "id": 492,
+      "name": "shaymin-land",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/492.png",
+      "types": [
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:21.389Z"
+    },
+    "494": {
+      "id": 494,
+      "name": "victini",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/494.png",
+      "types": [
+        "psychic",
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:21.690Z"
+    },
+    "498": {
+      "id": 498,
+      "name": "tepig",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/498.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:21.992Z"
+    },
+    "499": {
+      "id": 499,
+      "name": "pignite",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/499.png",
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:22.251Z"
+    },
+    "500": {
+      "id": 500,
+      "name": "emboar",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
+      "types": [
+        "fire",
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:22.595Z"
+    },
+    "503": {
+      "id": 503,
+      "name": "samurott",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:44:22.895Z"
+    },
+    "504": {
+      "id": 504,
+      "name": "patrat",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/504.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:23.195Z"
+    },
+    "505": {
+      "id": 505,
+      "name": "watchog",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:23.498Z"
+    },
+    "507": {
+      "id": 507,
+      "name": "herdier",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/507.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:23.797Z"
+    },
+    "512": {
+      "id": 512,
+      "name": "simisage",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png",
+      "types": [
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:24.100Z"
+    },
+    "513": {
+      "id": 513,
+      "name": "pansear",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/513.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:24.347Z"
+    },
+    "517": {
+      "id": 517,
+      "name": "munna",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/517.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:24.703Z"
+    },
+    "520": {
+      "id": 520,
+      "name": "tranquill",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/520.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:25.001Z"
+    },
+    "521": {
+      "id": 521,
+      "name": "unfezant",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/521.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:25.305Z"
+    },
+    "527": {
+      "id": 527,
+      "name": "woobat",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/527.png",
+      "types": [
+        "psychic",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:25.563Z"
+    },
+    "529": {
+      "id": 529,
+      "name": "drilbur",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/529.png",
+      "types": [
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:44:25.810Z"
+    },
+    "532": {
+      "id": 532,
+      "name": "timburr",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/532.png",
+      "types": [
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:26.110Z"
+    },
+    "534": {
+      "id": 534,
+      "name": "conkeldurr",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/534.png",
+      "types": [
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:26.368Z"
+    },
+    "539": {
+      "id": 539,
+      "name": "sawk",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/539.png",
+      "types": [
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:26.624Z"
+    },
+    "540": {
+      "id": 540,
+      "name": "sewaddle",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/540.png",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:26.911Z"
+    },
+    "541": {
+      "id": 541,
+      "name": "swadloon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/541.png",
+      "types": [
+        "bug",
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:27.162Z"
+    },
+    "544": {
+      "id": 544,
+      "name": "whirlipede",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/544.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:44:27.409Z"
+    },
+    "546": {
+      "id": 546,
+      "name": "cottonee",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/546.png",
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:27.659Z"
+    },
+    "547": {
+      "id": 547,
+      "name": "whimsicott",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png",
+      "types": [
+        "grass",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:28.013Z"
+    },
+    "548": {
+      "id": 548,
+      "name": "petilil",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/548.png",
+      "types": [
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:28.279Z"
+    },
+    "549": {
+      "id": 549,
+      "name": "lilligant",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png",
+      "types": [
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:28.527Z"
+    },
+    "551": {
+      "id": 551,
+      "name": "sandile",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/551.png",
+      "types": [
+        "ground",
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:44:28.817Z"
+    },
+    "552": {
+      "id": 552,
+      "name": "krokorok",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/552.png",
+      "types": [
+        "ground",
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:44:29.120Z"
+    },
+    "553": {
+      "id": 553,
+      "name": "krookodile",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png",
+      "types": [
+        "ground",
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:44:29.822Z"
+    },
+    "554": {
+      "id": 554,
+      "name": "darumaka",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/554.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:30.122Z"
+    },
+    "555": {
+      "id": 555,
+      "name": "darmanitan-standard",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:30.418Z"
+    },
+    "556": {
+      "id": 556,
+      "name": "maractus",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/556.png",
+      "types": [
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:30.724Z"
+    },
+    "557": {
+      "id": 557,
+      "name": "dwebble",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/557.png",
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "dateAdded": "2026-10-31T11:44:31.025Z"
+    },
+    "558": {
+      "id": 558,
+      "name": "crustle",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/558.png",
+      "types": [
+        "bug",
+        "rock"
+      ],
+      "dateAdded": "2026-10-31T11:44:31.326Z"
+    },
+    "559": {
+      "id": 559,
+      "name": "scraggy",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/559.png",
+      "types": [
+        "dark",
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:31.627Z"
+    },
+    "563": {
+      "id": 563,
+      "name": "cofagrigus",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/563.png",
+      "types": [
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:31.928Z"
+    },
+    "565": {
+      "id": 565,
+      "name": "carracosta",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/565.png",
+      "types": [
+        "water",
+        "rock"
+      ],
+      "dateAdded": "2026-10-31T11:44:32.228Z"
+    },
+    "567": {
+      "id": 567,
+      "name": "archeops",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/567.png",
+      "types": [
+        "rock",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:32.530Z"
+    },
+    "568": {
+      "id": 568,
+      "name": "trubbish",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/568.png",
+      "types": [
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:44:32.830Z"
+    },
+    "570": {
+      "id": 570,
+      "name": "zorua",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/570.png",
+      "types": [
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:44:33.132Z"
+    },
+    "571": {
+      "id": 571,
+      "name": "zoroark",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/571.png",
+      "types": [
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:44:33.433Z"
+    },
+    "573": {
+      "id": 573,
+      "name": "cinccino",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/573.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:33.730Z"
+    },
+    "574": {
+      "id": 574,
+      "name": "gothita",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/574.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:34.035Z"
+    },
+    "575": {
+      "id": 575,
+      "name": "gothorita",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/575.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:34.336Z"
+    },
+    "576": {
+      "id": 576,
+      "name": "gothitelle",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/576.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:34.637Z"
+    },
+    "578": {
+      "id": 578,
+      "name": "duosion",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/578.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:34.939Z"
+    },
+    "582": {
+      "id": 582,
+      "name": "vanillite",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/582.png",
+      "types": [
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:44:35.239Z"
+    },
+    "583": {
+      "id": 583,
+      "name": "vanillish",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/583.png",
+      "types": [
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:44:35.496Z"
+    },
+    "585": {
+      "id": 585,
+      "name": "deerling",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
+      "types": [
+        "normal",
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:35.743Z"
+    },
+    "587": {
+      "id": 587,
+      "name": "emolga",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/587.png",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:36.003Z"
+    },
+    "588": {
+      "id": 588,
+      "name": "karrablast",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/588.png",
+      "types": [
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:44:36.333Z"
+    },
+    "590": {
+      "id": 590,
+      "name": "foongus",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/590.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:44:36.645Z"
+    },
+    "592": {
+      "id": 592,
+      "name": "frillish-male",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/592.png",
+      "types": [
+        "water",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:36.946Z"
+    },
+    "595": {
+      "id": 595,
+      "name": "joltik",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/595.png",
+      "types": [
+        "bug",
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:44:37.246Z"
+    },
+    "597": {
+      "id": 597,
+      "name": "ferroseed",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/597.png",
+      "types": [
+        "grass",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:37.546Z"
+    },
+    "598": {
+      "id": 598,
+      "name": "ferrothorn",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/598.png",
+      "types": [
+        "grass",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:37.847Z"
+    },
+    "599": {
+      "id": 599,
+      "name": "klink",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/599.png",
+      "types": [
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:38.147Z"
+    },
+    "600": {
+      "id": 600,
+      "name": "klang",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/600.png",
+      "types": [
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:38.450Z"
+    },
+    "601": {
+      "id": 601,
+      "name": "klinklang",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/601.png",
+      "types": [
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:38.708Z"
+    },
+    "603": {
+      "id": 603,
+      "name": "eelektrik",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/603.png",
+      "types": [
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:44:38.962Z"
+    },
+    "604": {
+      "id": 604,
+      "name": "eelektross",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
+      "types": [
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:44:39.251Z"
+    },
+    "605": {
+      "id": 605,
+      "name": "elgyem",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/605.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:39.555Z"
+    },
+    "606": {
+      "id": 606,
+      "name": "beheeyem",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/606.png",
+      "types": [
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:39.856Z"
+    },
+    "607": {
+      "id": 607,
+      "name": "litwick",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/607.png",
+      "types": [
+        "ghost",
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:40.158Z"
+    },
+    "609": {
+      "id": 609,
+      "name": "chandelure",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
+      "types": [
+        "ghost",
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:40.410Z"
+    },
+    "613": {
+      "id": 613,
+      "name": "cubchoo",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/613.png",
+      "types": [
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:44:40.664Z"
+    },
+    "614": {
+      "id": 614,
+      "name": "beartic",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/614.png",
+      "types": [
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:44:40.927Z"
+    },
+    "615": {
+      "id": 615,
+      "name": "cryogonal",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/615.png",
+      "types": [
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:44:41.182Z"
+    },
+    "616": {
+      "id": 616,
+      "name": "shelmet",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/616.png",
+      "types": [
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:44:41.459Z"
+    },
+    "618": {
+      "id": 618,
+      "name": "stunfisk",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
+      "types": [
+        "ground",
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:44:41.763Z"
+    },
+    "619": {
+      "id": 619,
+      "name": "mienfoo",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/619.png",
+      "types": [
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:42.064Z"
+    },
+    "622": {
+      "id": 622,
+      "name": "golett",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/622.png",
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:42.364Z"
+    },
+    "623": {
+      "id": 623,
+      "name": "golurk",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/623.png",
+      "types": [
+        "ground",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:42.612Z"
+    },
+    "624": {
+      "id": 624,
+      "name": "pawniard",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/624.png",
+      "types": [
+        "dark",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:42.877Z"
+    },
+    "625": {
+      "id": 625,
+      "name": "bisharp",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/625.png",
+      "types": [
+        "dark",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:43.168Z"
+    },
+    "627": {
+      "id": 627,
+      "name": "rufflet",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/627.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:43.417Z"
+    },
+    "628": {
+      "id": 628,
+      "name": "braviary",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/628.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:43.666Z"
+    },
+    "629": {
+      "id": 629,
+      "name": "vullaby",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/629.png",
+      "types": [
+        "dark",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:43.924Z"
+    },
+    "632": {
+      "id": 632,
+      "name": "durant",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/632.png",
+      "types": [
+        "bug",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:44:44.272Z"
+    },
+    "633": {
+      "id": 633,
+      "name": "deino",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/633.png",
+      "types": [
+        "dark",
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:44:44.573Z"
+    },
+    "637": {
+      "id": 637,
+      "name": "volcarona",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/637.png",
+      "types": [
+        "bug",
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:44.875Z"
+    },
+    "638": {
+      "id": 638,
+      "name": "cobalion",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/638.png",
+      "types": [
+        "steel",
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:45.175Z"
+    },
+    "639": {
+      "id": 639,
+      "name": "terrakion",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/639.png",
+      "types": [
+        "rock",
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:45.476Z"
+    },
+    "640": {
+      "id": 640,
+      "name": "virizion",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/640.png",
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:45.774Z"
+    },
+    "641": {
+      "id": 641,
+      "name": "tornadus-incarnate",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png",
+      "types": [
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:46.037Z"
+    },
+    "642": {
+      "id": 642,
+      "name": "thundurus-incarnate",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/642.png",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:46.285Z"
+    },
+    "643": {
+      "id": 643,
+      "name": "reshiram",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/643.png",
+      "types": [
+        "dragon",
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:46.581Z"
+    },
+    "644": {
+      "id": 644,
+      "name": "zekrom",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/644.png",
+      "types": [
+        "dragon",
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:44:46.883Z"
+    },
+    "645": {
+      "id": 645,
+      "name": "landorus-incarnate",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/645.png",
+      "types": [
+        "ground",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:47.185Z"
+    },
+    "652": {
+      "id": 652,
+      "name": "chesnaught",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
+      "types": [
+        "grass",
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:47.482Z"
+    },
+    "655": {
+      "id": 655,
+      "name": "delphox",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+      "types": [
+        "fire",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:44:47.784Z"
+    },
+    "667": {
+      "id": 667,
+      "name": "litleo",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png",
+      "types": [
+        "fire",
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:48.091Z"
+    },
+    "683": {
+      "id": 683,
+      "name": "aromatisse",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
+      "types": [
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:48.386Z"
+    },
+    "693": {
+      "id": 693,
+      "name": "clawitzer",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:44:48.687Z"
+    },
+    "694": {
+      "id": 694,
+      "name": "helioptile",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/694.png",
+      "types": [
+        "electric",
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:48.977Z"
+    },
+    "698": {
+      "id": 698,
+      "name": "amaura",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/698.png",
+      "types": [
+        "rock",
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:44:49.290Z"
+    },
+    "700": {
+      "id": 700,
+      "name": "sylveon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
+      "types": [
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:49.589Z"
+    },
+    "703": {
+      "id": 703,
+      "name": "carbink",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/703.png",
+      "types": [
+        "rock",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:49.891Z"
+    },
+    "709": {
+      "id": 709,
+      "name": "trevenant",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png",
+      "types": [
+        "ghost",
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:50.192Z"
+    },
+    "715": {
+      "id": 715,
+      "name": "noivern",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
+      "types": [
+        "flying",
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:44:50.491Z"
+    },
+    "720": {
+      "id": 720,
+      "name": "hoopa",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/720.png",
+      "types": [
+        "psychic",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:50.793Z"
+    },
+    "729": {
+      "id": 729,
+      "name": "brionne",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/729.png",
+      "types": [
+        "water"
+      ],
+      "dateAdded": "2026-10-31T11:44:51.095Z"
+    },
+    "730": {
+      "id": 730,
+      "name": "primarina",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/730.png",
+      "types": [
+        "water",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:51.394Z"
+    },
+    "732": {
+      "id": 732,
+      "name": "trumbeak",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/732.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:51.697Z"
+    },
+    "736": {
+      "id": 736,
+      "name": "grubbin",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/736.png",
+      "types": [
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:44:52.000Z"
+    },
+    "737": {
+      "id": 737,
+      "name": "charjabug",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/737.png",
+      "types": [
+        "bug",
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:44:52.300Z"
+    },
+    "738": {
+      "id": 738,
+      "name": "vikavolt",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/738.png",
+      "types": [
+        "bug",
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:44:52.601Z"
+    },
+    "745": {
+      "id": 745,
+      "name": "lycanroc-midday",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png",
+      "types": [
+        "rock"
+      ],
+      "dateAdded": "2026-10-31T11:44:52.909Z"
+    },
+    "753": {
+      "id": 753,
+      "name": "fomantis",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/753.png",
+      "types": [
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:44:53.207Z"
+    },
+    "757": {
+      "id": 757,
+      "name": "salandit",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/757.png",
+      "types": [
+        "poison",
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:53.506Z"
+    },
+    "773": {
+      "id": 773,
+      "name": "silvally",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:53.757Z"
+    },
+    "776": {
+      "id": 776,
+      "name": "turtonator",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/776.png",
+      "types": [
+        "fire",
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:44:54.014Z"
+    },
+    "778": {
+      "id": 778,
+      "name": "mimikyu-disguised",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png",
+      "types": [
+        "ghost",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:54.308Z"
+    },
+    "780": {
+      "id": 780,
+      "name": "drampa",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
+      "types": [
+        "normal",
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:44:54.610Z"
+    },
+    "785": {
+      "id": 785,
+      "name": "tapu-koko",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png",
+      "types": [
+        "electric",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:54.909Z"
+    },
+    "801": {
+      "id": 801,
+      "name": "magearna",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/801.png",
+      "types": [
+        "steel",
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:55.210Z"
+    },
+    "813": {
+      "id": 813,
+      "name": "scorbunny",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/813.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:55.509Z"
+    },
+    "814": {
+      "id": 814,
+      "name": "raboot",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/814.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:55.811Z"
+    },
+    "815": {
+      "id": 815,
+      "name": "cinderace",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:56.112Z"
+    },
+    "822": {
+      "id": 822,
+      "name": "corvisquire",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/822.png",
+      "types": [
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:44:56.362Z"
+    },
+    "837": {
+      "id": 837,
+      "name": "rolycoly",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/837.png",
+      "types": [
+        "rock"
+      ],
+      "dateAdded": "2026-10-31T11:44:56.623Z"
+    },
+    "839": {
+      "id": 839,
+      "name": "coalossal",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/839.png",
+      "types": [
+        "rock",
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:44:56.918Z"
+    },
+    "840": {
+      "id": 840,
+      "name": "applin",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+      "types": [
+        "grass",
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:44:57.223Z"
+    },
+    "849": {
+      "id": 849,
+      "name": "toxtricity-amped",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/849.png",
+      "types": [
+        "electric",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:44:57.469Z"
+    },
+    "850": {
+      "id": 850,
+      "name": "sizzlipede",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/850.png",
+      "types": [
+        "fire",
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:44:57.776Z"
+    },
+    "853": {
+      "id": 853,
+      "name": "grapploct",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/853.png",
+      "types": [
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:44:58.047Z"
+    },
+    "862": {
+      "id": 862,
+      "name": "obstagoon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/862.png",
+      "types": [
+        "dark",
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:44:58.322Z"
+    },
+    "872": {
+      "id": 872,
+      "name": "snom",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/872.png",
+      "types": [
+        "ice",
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:44:58.654Z"
+    },
+    "873": {
+      "id": 873,
+      "name": "frosmoth",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/873.png",
+      "types": [
+        "ice",
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:44:58.918Z"
+    },
+    "885": {
+      "id": 885,
+      "name": "dreepy",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/885.png",
+      "types": [
+        "dragon",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:59.224Z"
+    },
+    "886": {
+      "id": 886,
+      "name": "drakloak",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/886.png",
+      "types": [
+        "dragon",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:44:59.480Z"
+    },
+    "888": {
+      "id": 888,
+      "name": "zacian",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/888.png",
+      "types": [
+        "fairy"
+      ],
+      "dateAdded": "2026-10-31T11:44:59.739Z"
+    },
+    "890": {
+      "id": 890,
+      "name": "eternatus",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/890.png",
+      "types": [
+        "poison",
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:45:00.025Z"
+    },
+    "893": {
+      "id": 893,
+      "name": "zarude",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/893.png",
+      "types": [
+        "dark",
+        "grass"
+      ],
+      "dateAdded": "2026-10-31T11:45:00.325Z"
+    },
+    "897": {
+      "id": 897,
+      "name": "spectrier",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/897.png",
+      "types": [
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:45:00.627Z"
+    },
+    "901": {
+      "id": 901,
+      "name": "ursaluna",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/901.png",
+      "types": [
+        "ground",
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:45:00.928Z"
+    },
+    "909": {
+      "id": 909,
+      "name": "fuecoco",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/909.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:45:01.229Z"
+    },
+    "917": {
+      "id": 917,
+      "name": "tarountula",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/917.png",
+      "types": [
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:45:01.531Z"
+    },
+    "918": {
+      "id": 918,
+      "name": "spidops",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/918.png",
+      "types": [
+        "bug"
+      ],
+      "dateAdded": "2026-10-31T11:45:01.832Z"
+    },
+    "935": {
+      "id": 935,
+      "name": "charcadet",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/935.png",
+      "types": [
+        "fire"
+      ],
+      "dateAdded": "2026-10-31T11:45:02.134Z"
+    },
+    "936": {
+      "id": 936,
+      "name": "armarouge",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/936.png",
+      "types": [
+        "fire",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:45:02.433Z"
+    },
+    "941": {
+      "id": 941,
+      "name": "kilowattrel",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/941.png",
+      "types": [
+        "electric",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:45:02.737Z"
+    },
+    "943": {
+      "id": 943,
+      "name": "mabosstiff",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/943.png",
+      "types": [
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:45:03.046Z"
+    },
+    "944": {
+      "id": 944,
+      "name": "shroodle",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/944.png",
+      "types": [
+        "poison",
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:45:03.336Z"
+    },
+    "945": {
+      "id": 945,
+      "name": "grafaiai",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/945.png",
+      "types": [
+        "poison",
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:45:03.640Z"
+    },
+    "958": {
+      "id": 958,
+      "name": "tinkatuff",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/958.png",
+      "types": [
+        "fairy",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:45:03.939Z"
+    },
+    "962": {
+      "id": 962,
+      "name": "bombirdier",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/962.png",
+      "types": [
+        "flying",
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:45:04.241Z"
+    },
+    "965": {
+      "id": 965,
+      "name": "varoom",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/965.png",
+      "types": [
+        "steel",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:45:04.542Z"
+    },
+    "967": {
+      "id": 967,
+      "name": "cyclizar",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/967.png",
+      "types": [
+        "dragon",
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:45:04.843Z"
+    },
+    "972": {
+      "id": 972,
+      "name": "houndstone",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/972.png",
+      "types": [
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:45:05.142Z"
+    },
+    "979": {
+      "id": 979,
+      "name": "annihilape",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/979.png",
+      "types": [
+        "fighting",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:45:05.445Z"
+    },
+    "983": {
+      "id": 983,
+      "name": "kingambit",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/983.png",
+      "types": [
+        "dark",
+        "steel"
+      ],
+      "dateAdded": "2026-10-31T11:45:05.701Z"
+    },
+    "999": {
+      "id": 999,
+      "name": "gimmighoul",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/999.png",
+      "types": [
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:45:06.046Z"
+    },
+    "1000": {
+      "id": 1000,
+      "name": "gholdengo",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1000.png",
+      "types": [
+        "steel",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:45:06.345Z"
+    },
+    "1002": {
+      "id": 1002,
+      "name": "chien-pao",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1002.png",
+      "types": [
+        "dark",
+        "ice"
+      ],
+      "dateAdded": "2026-10-31T11:45:06.603Z"
+    },
+    "1005": {
+      "id": 1005,
+      "name": "roaring-moon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1005.png",
+      "types": [
+        "dragon",
+        "dark"
+      ],
+      "dateAdded": "2026-10-31T11:45:06.856Z"
+    },
+    "1007": {
+      "id": 1007,
+      "name": "koraidon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1007.png",
+      "types": [
+        "fighting",
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:45:07.150Z"
+    },
+    "1008": {
+      "id": 1008,
+      "name": "miraidon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1008.png",
+      "types": [
+        "electric",
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:45:07.451Z"
+    },
+    "1013": {
+      "id": 1013,
+      "name": "sinistcha",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1013.png",
+      "types": [
+        "grass",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:45:07.752Z"
+    },
+    "1014": {
+      "id": 1014,
+      "name": "okidogi",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1014.png",
+      "types": [
+        "poison",
+        "fighting"
+      ],
+      "dateAdded": "2026-10-31T11:45:08.077Z"
+    },
+    "1015": {
+      "id": 1015,
+      "name": "munkidori",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1015.png",
+      "types": [
+        "poison",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:45:08.756Z"
+    },
+    "1018": {
+      "id": 1018,
+      "name": "archaludon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1018.png",
+      "types": [
+        "steel",
+        "dragon"
+      ],
+      "dateAdded": "2026-10-31T11:45:09.056Z"
+    },
+    "1022": {
+      "id": 1022,
+      "name": "iron-boulder",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1022.png",
+      "types": [
+        "rock",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:45:09.358Z"
+    },
+    "1023": {
+      "id": 1023,
+      "name": "iron-crown",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1023.png",
+      "types": [
+        "steel",
+        "psychic"
+      ],
+      "dateAdded": "2026-10-31T11:45:09.657Z"
+    },
+    "1024": {
+      "id": 1024,
+      "name": "terapagos",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1024.png",
+      "types": [
+        "normal"
+      ],
+      "dateAdded": "2026-10-31T11:45:09.922Z"
+    },
+    "1025": {
+      "id": 1025,
+      "name": "pecharunt",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1025.png",
+      "types": [
+        "poison",
+        "ghost"
+      ],
+      "dateAdded": "2026-10-31T11:45:10.193Z"
     }
   }
 }
