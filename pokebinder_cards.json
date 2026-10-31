@@ -1,7 +1,18 @@
 {
-  "lastUpdated": "2026-10-31T13:30:40.591Z",
-  "totalOwned": 324,
+  "lastUpdated": "2026-10-31T13:49:11.993Z",
+  "totalOwned": 325,
   "owned": {
+    "2": {
+      "id": 2,
+      "name": "ivysaur",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "cardRarity": "holo",
+      "dateAdded": "2026-10-31T13:49:10.984Z"
+    },
     "4": {
       "id": 4,
       "name": "charmander",
