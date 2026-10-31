@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T13:16:21.764Z",
-  "totalOwned": 294,
+  "lastUpdated": "2026-10-31T13:30:40.591Z",
+  "totalOwned": 324,
   "owned": {
     "4": {
       "id": 4,
@@ -235,6 +235,16 @@
       "dateAdded": "2026-10-31T11:43:56.391Z",
       "cardRarity": "holo"
     },
+    "54": {
+      "id": 54,
+      "name": "psyduck",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:22:27.154Z"
+    },
     "55": {
       "id": 55,
       "name": "golduck",
@@ -265,6 +275,17 @@
       "dateAdded": "2026-10-31T11:43:56.400Z",
       "cardRarity": "holo"
     },
+    "62": {
+      "id": 62,
+      "name": "poliwrath",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+      "types": [
+        "water",
+        "fighting"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:21:20.854Z"
+    },
     "63": {
       "id": 63,
       "name": "abra",
@@ -285,6 +306,17 @@
       ],
       "dateAdded": "2026-10-31T11:43:56.403Z",
       "cardRarity": "holo"
+    },
+    "72": {
+      "id": 72,
+      "name": "tentacool",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+      "types": [
+        "water",
+        "poison"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:22:43.286Z"
     },
     "74": {
       "id": 74,
@@ -341,6 +373,27 @@
       "dateAdded": "2026-10-31T11:43:56.412Z",
       "cardRarity": "holo"
     },
+    "86": {
+      "id": 86,
+      "name": "seel",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:29:59.652Z"
+    },
+    "87": {
+      "id": 87,
+      "name": "dewgong",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+      "types": [
+        "water",
+        "ice"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:21:34.837Z"
+    },
     "92": {
       "id": 92,
       "name": "gastly",
@@ -372,6 +425,26 @@
       ],
       "dateAdded": "2026-10-31T11:43:56.418Z",
       "cardRarity": "holo"
+    },
+    "98": {
+      "id": 98,
+      "name": "krabby",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:22:51.537Z"
+    },
+    "100": {
+      "id": 100,
+      "name": "voltorb",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+      "types": [
+        "electric"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:16:59.570Z"
     },
     "102": {
       "id": 102,
@@ -426,6 +499,16 @@
       "dateAdded": "2026-10-31T11:43:56.428Z",
       "cardRarity": "holo"
     },
+    "117": {
+      "id": 117,
+      "name": "seadra",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:23:23.887Z"
+    },
     "118": {
       "id": 118,
       "name": "goldeen",
@@ -456,6 +539,16 @@
       ],
       "dateAdded": "2026-10-31T11:43:56.433Z",
       "cardRarity": "holo"
+    },
+    "125": {
+      "id": 125,
+      "name": "electabuzz",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+      "types": [
+        "electric"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:18:55.972Z"
     },
     "130": {
       "id": 130,
@@ -498,6 +591,17 @@
       ],
       "dateAdded": "2026-10-31T11:43:56.442Z",
       "cardRarity": "holo"
+    },
+    "138": {
+      "id": 138,
+      "name": "omanyte",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:23:07.987Z"
     },
     "139": {
       "id": 139,
@@ -605,6 +709,16 @@
       "dateAdded": "2026-10-31T11:43:57.606Z",
       "cardRarity": "holo"
     },
+    "179": {
+      "id": 179,
+      "name": "mareep",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
+      "types": [
+        "electric"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:18:15.671Z"
+    },
     "181": {
       "id": 181,
       "name": "ampharos",
@@ -636,6 +750,16 @@
       "dateAdded": "2026-10-31T11:43:58.512Z",
       "cardRarity": "holo"
     },
+    "190": {
+      "id": 190,
+      "name": "aipom",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/190.png",
+      "types": [
+        "normal"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:16:49.338Z"
+    },
     "196": {
       "id": 196,
       "name": "espeon",
@@ -645,6 +769,17 @@
       ],
       "dateAdded": "2026-10-31T11:43:58.810Z",
       "cardRarity": "holo"
+    },
+    "199": {
+      "id": 199,
+      "name": "slowking",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
+      "types": [
+        "water",
+        "psychic"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:29:43.535Z"
     },
     "200": {
       "id": 200,
@@ -1074,6 +1209,17 @@
       "dateAdded": "2026-10-31T11:44:12.559Z",
       "cardRarity": "holo"
     },
+    "369": {
+      "id": 369,
+      "name": "relicanth",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/369.png",
+      "types": [
+        "water",
+        "rock"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:28:07.252Z"
+    },
     "375": {
       "id": 375,
       "name": "metang",
@@ -1392,6 +1538,26 @@
       "dateAdded": "2026-10-31T11:44:22.595Z",
       "cardRarity": "holo"
     },
+    "501": {
+      "id": 501,
+      "name": "oshawott",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/501.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:24:04.754Z"
+    },
+    "502": {
+      "id": 502,
+      "name": "dewott",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/502.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:25:19.073Z"
+    },
     "503": {
       "id": 503,
       "name": "samurott",
@@ -1452,6 +1618,16 @@
       "dateAdded": "2026-10-31T11:44:24.347Z",
       "cardRarity": "holo"
     },
+    "516": {
+      "id": 516,
+      "name": "simipour",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/516.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:26:06.825Z"
+    },
     "517": {
       "id": 517,
       "name": "munna",
@@ -1483,6 +1659,16 @@
       ],
       "dateAdded": "2026-10-31T11:44:25.305Z",
       "cardRarity": "holo"
+    },
+    "522": {
+      "id": 522,
+      "name": "blitzle",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/522.png",
+      "types": [
+        "electric"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:17:26.420Z"
     },
     "527": {
       "id": 527,
@@ -1524,6 +1710,38 @@
       ],
       "dateAdded": "2026-10-31T11:44:26.368Z",
       "cardRarity": "holo"
+    },
+    "535": {
+      "id": 535,
+      "name": "tympole",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/535.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:27:42.085Z"
+    },
+    "536": {
+      "id": 536,
+      "name": "palpitoad",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/536.png",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:25:33.338Z"
+    },
+    "537": {
+      "id": 537,
+      "name": "seismitoad",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/537.png",
+      "types": [
+        "water",
+        "ground"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:27:50.603Z"
     },
     "539": {
       "id": 539,
@@ -1716,6 +1934,17 @@
       "dateAdded": "2026-10-31T11:44:31.928Z",
       "cardRarity": "holo"
     },
+    "564": {
+      "id": 564,
+      "name": "tirtouga",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/564.png",
+      "types": [
+        "water",
+        "rock"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:24:26.455Z"
+    },
     "565": {
       "id": 565,
       "name": "carracosta",
@@ -1818,6 +2047,17 @@
       "dateAdded": "2026-10-31T11:44:34.939Z",
       "cardRarity": "holo"
     },
+    "580": {
+      "id": 580,
+      "name": "ducklett",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/580.png",
+      "types": [
+        "water",
+        "flying"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:26:41.536Z"
+    },
     "582": {
       "id": 582,
       "name": "vanillite",
@@ -1837,6 +2077,16 @@
       ],
       "dateAdded": "2026-10-31T11:44:35.496Z",
       "cardRarity": "holo"
+    },
+    "584": {
+      "id": 584,
+      "name": "vanilluxe",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png",
+      "types": [
+        "ice"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:25:05.604Z"
     },
     "585": {
       "id": 585,
@@ -1878,7 +2128,7 @@
         "bug",
         "steel"
       ],
-      "cardRarity": "holo",
+      "cardRarity": "normal",
       "dateAdded": "2026-10-31T13:16:20.520Z"
     },
     "590": {
@@ -1913,6 +2163,17 @@
       ],
       "dateAdded": "2026-10-31T11:44:37.246Z",
       "cardRarity": "holo"
+    },
+    "596": {
+      "id": 596,
+      "name": "galvantula",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/596.png",
+      "types": [
+        "bug",
+        "electric"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:17:44.821Z"
     },
     "597": {
       "id": 597,
@@ -1965,6 +2226,16 @@
       ],
       "dateAdded": "2026-10-31T11:44:38.708Z",
       "cardRarity": "holo"
+    },
+    "602": {
+      "id": 602,
+      "name": "tynamo",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png",
+      "types": [
+        "electric"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:17:58.503Z"
     },
     "603": {
       "id": 603,
@@ -2382,6 +2653,17 @@
       "dateAdded": "2026-10-31T11:44:49.891Z",
       "cardRarity": "holo"
     },
+    "707": {
+      "id": 707,
+      "name": "klefki",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png",
+      "types": [
+        "steel",
+        "fairy"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:16:31.187Z"
+    },
     "709": {
       "id": 709,
       "name": "trevenant",
@@ -2604,6 +2886,26 @@
       ],
       "dateAdded": "2026-10-31T11:44:56.112Z",
       "cardRarity": "holo"
+    },
+    "817": {
+      "id": 817,
+      "name": "drizzile",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/817.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:28:31.119Z"
+    },
+    "818": {
+      "id": 818,
+      "name": "inteleon",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/818.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "reverse-holo",
+      "dateAdded": "2026-10-31T13:28:35.002Z"
     },
     "822": {
       "id": 822,
@@ -2902,6 +3204,16 @@
       ],
       "dateAdded": "2026-10-31T11:45:04.241Z",
       "cardRarity": "holo"
+    },
+    "963": {
+      "id": 963,
+      "name": "finizen",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/963.png",
+      "types": [
+        "water"
+      ],
+      "cardRarity": "normal",
+      "dateAdded": "2026-10-31T13:29:01.401Z"
     },
     "965": {
       "id": 965,
