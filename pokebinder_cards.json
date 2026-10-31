@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T11:10:25.748Z",
-  "totalOwned": 2,
+  "lastUpdated": "2026-10-31T11:15:00.851Z",
+  "totalOwned": 9,
   "owned": {
     "4": {
       "id": 4,
@@ -9,7 +9,46 @@
       "types": [
         "fire"
       ],
-      "dateAdded": "2026-10-31T17:50:00.000Z"
+      "dateAdded": "2026-10-31T10:52:10.589Z"
+    },
+    "12": {
+      "id": 12,
+      "name": "butterfree",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+      "types": [
+        "bug",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:15:00.457Z"
+    },
+    "13": {
+      "id": 13,
+      "name": "weedle",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:15:00.458Z"
+    },
+    "22": {
+      "id": 22,
+      "name": "fearow",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dateAdded": "2026-10-31T11:15:00.460Z"
+    },
+    "23": {
+      "id": 23,
+      "name": "ekans",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+      "types": [
+        "poison"
+      ],
+      "dateAdded": "2026-10-31T11:15:00.462Z"
     },
     "25": {
       "id": 25,
@@ -18,7 +57,36 @@
       "types": [
         "electric"
       ],
-      "dateAdded": "2026-10-31T17:50:00.000Z"
+      "dateAdded": "2026-10-31T10:52:10.589Z"
+    },
+    "26": {
+      "id": 26,
+      "name": "raichu",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+      "types": [
+        "electric"
+      ],
+      "dateAdded": "2026-10-31T11:15:00.464Z"
+    },
+    "31": {
+      "id": 31,
+      "name": "nidoqueen",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:15:00.466Z"
+    },
+    "34": {
+      "id": 34,
+      "name": "nidoking",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+      "types": [
+        "poison",
+        "ground"
+      ],
+      "dateAdded": "2026-10-31T11:15:00.469Z"
     }
   }
 }
