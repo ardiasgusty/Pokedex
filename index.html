@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokéBinder Tracker - Online 9-Pocket Binder</title>
+  <meta name="description" content="Visual 9-pocket card binder tracker untuk memantau koleksi kartu Pokémon & nomor Pokédex yang masih kosong.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header / Navbar -->
+    <header class="app-header">
+      <div class="logo-area">
+        <div class="pokeball-icon"></div>
+        <div>
+          <h1 class="app-title">PokéBinder Tracker</h1>
+          <p class="app-subtitle">Binder Visual 9-Pocket (3×3) & Tracker Hunting Pokédex</p>
+        </div>
+      </div>
+
+      <div class="header-right-actions">
+        <button id="btn-open-settings" class="btn secondary github-settings-btn" title="Pengaturan GitHub Token & Sync">
+          <span class="github-icon">🐙</span>
+          <span class="btn-text">GitHub Sync</span>
+          <span id="github-sync-indicator" class="sync-dot not-connected" title="Belum terhubung ke GitHub"></span>
+        </button>
+
+        <div class="quick-stats">
+          <div class="stat-badge">
+            <span class="stat-label">Terkoleksi</span>
+            <span class="stat-val" id="stat-owned-count">0</span>
+          </div>
+          <div class="stat-badge missing">
+            <span class="stat-label">Belum Ada</span>
+            <span class="stat-val" id="stat-missing-count">0</span>
+          </div>
+          <div class="stat-badge progress-badge">
+            <span class="stat-label">Progress</span>
+            <span class="stat-val" id="stat-percent">0%</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Toolbar -->
+    <section class="toolbar-section">
+      <!-- Input Card Box -->
+      <div class="tool-card add-card-box">
+        <h3><span class="icon">➕</span> Input Kartu Baru</h3>
+        <form id="add-pokemon-form" class="input-form">
+          <div class="input-group">
+            <label for="poke-id-input">No. Pokédex (#1 - 1025):</label>
+            <div class="input-with-button">
+              <span class="hash-tag">#</span>
+              <input type="number" id="poke-id-input" min="1" max="1025" placeholder="Contoh: 25 (Pikachu)" required autocomplete="off">
+              <button type="button" id="btn-preview" class="btn secondary">Cek Info</button>
+            </div>
+          </div>
+
+          <!-- Quick Preview Box -->
+          <div id="quick-preview" class="quick-preview-box hidden">
+            <img id="preview-img" src="" alt="Preview">
+            <div class="preview-info">
+              <strong id="preview-name">-</strong>
+              <div id="preview-types" class="types-row"></div>
+            </div>
+          </div>
+
+          <button type="submit" id="btn-add-pokemon" class="btn primary">
+            <span>+ Simpan ke Binder</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Quick Batch & Missing Wishlist Helper -->
+      <div class="tool-card quick-actions-box">
+        <h3><span class="icon">🎯</span> Hunting & Kebutuhan</h3>
+        <p class="tool-desc">Cari tahu nomor berapa saja yang belum kamu miliki untuk dibeli saat berburu kartu!</p>
+        <div class="action-buttons-grid">
+          <button id="btn-open-missing-modal" class="btn outline highlight">
+            🔍 Daftar Belanja / Missing List
+          </button>
+          <button id="btn-open-batch-modal" class="btn outline">
+            ⚡ Input Banyak Nomor Sekaligus
+          </button>
+        </div>
+
+        <div class="backup-actions">
+          <span class="backup-label">Data JSON:</span>
+          <div class="backup-btns">
+            <button id="btn-export-json" class="btn micro" title="Download backup data JSON">💾 Export JSON</button>
+            <button id="btn-import-json-trigger" class="btn micro" title="Import data JSON">📂 Import JSON</button>
+            <input type="file" id="json-file-input" accept=".json" style="display:none">
+            <button id="btn-reset-data" class="btn micro danger" title="Reset semua data">🗑️ Reset</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Binder Navigation & Filters Bar -->
+    <section class="binder-controls">
+      <div class="page-switcher">
+        <button id="btn-first-page" class="nav-btn" title="Halaman Pertama">⏮</button>
+        <button id="btn-prev-page" class="nav-btn" title="Halaman Sebelumnya">◀ Prev</button>
+        <div class="page-indicator">
+          <span class="page-label">Halaman</span>
+          <span class="page-num" id="current-page-display">1</span>
+          <span class="page-total" id="total-pages-display">/ 114</span>
+          <span class="page-range" id="page-pokedex-range">(#1 - #9)</span>
+        </div>
+        <button id="btn-next-page" class="nav-btn" title="Halaman Selanjutnya">Next ▶</button>
+        <button id="btn-last-page" class="nav-btn" title="Halaman Terakhir">⏭</button>
+      </div>
+
+      <div class="view-filter-bar">
+        <div class="jump-box">
+          <label for="jump-page-input">Loncat Halaman / No:</label>
+          <input type="number" id="jump-page-input" min="1" placeholder="Hal # / No #">
+          <button id="btn-jump" class="btn micro secondary">Pergi</button>
+        </div>
+
+        <div class="filter-toggles">
+          <button id="filter-all" class="toggle-btn active" data-filter="all">Semua Slot</button>
+          <button id="filter-missing" class="toggle-btn" data-filter="missing">Slot Kosong Saja</button>
+          <button id="filter-owned" class="toggle-btn" data-filter="owned">Terkoleksi Saja</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9-Pocket Card Binder Physical Layout -->
+    <main class="binder-wrapper">
+      <div class="binder-leather-frame">
+        <div class="binder-rings">
+          <div class="ring"></div>
+          <div class="ring"></div>
+          <div class="ring"></div>
+        </div>
+
+        <div class="binder-sheet">
+          <div class="sheet-header">
+            <span class="sheet-title">PokéBinder 9-Pocket Page</span>
+            <span class="sheet-counter" id="sheet-header-range">Slots #1 - #9</span>
+          </div>
+
+          <!-- 3x3 Grid (9 Pockets) -->
+          <div class="pocket-grid" id="pocket-grid">
+            <!-- Will be dynamically populated with 9 slots -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>PokéBinder Tracker &copy; 2026 &bull; Dibuat khusus untuk kolektor kartu Pokémon visual 9-pocket binder.</p>
+      <p class="api-credit">Data & Gambar Pokémon via PokeAPI official artwork.</p>
+    </footer>
+  </div>
+
+  <!-- Modal: Missing Pokémon Shopping / Hunting List -->
+  <div id="missing-modal" class="modal-backdrop hidden">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2>🎯 Daftar Pokémon yang Belum Dimiliki (Hunting List)</h2>
+        <button class="modal-close" id="btn-close-missing-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">Gunakan daftar ini saat pergi ke toko kartu atau event komunitas untuk belanja kartu yang belum kamu punya!</p>
+        
+        <div class="missing-filter-bar">
+          <div class="generation-tabs" id="gen-tabs">
+            <button class="tab-btn active" data-gen="all">Semua Gen</button>
+            <button class="tab-btn" data-gen="1">Gen 1 (1-151)</button>
+            <button class="tab-btn" data-gen="2">Gen 2 (152-251)</button>
+            <button class="tab-btn" data-gen="3">Gen 3 (252-386)</button>
+            <button class="tab-btn" data-gen="4">Gen 4 (387-493)</button>
+            <button class="tab-btn" data-gen="5">Gen 5 (494-649)</button>
+            <button class="tab-btn" data-gen="6">Gen 6 (650-721)</button>
+            <button class="tab-btn" data-gen="7">Gen 7 (722-809)</button>
+            <button class="tab-btn" data-gen="8">Gen 8 (810-905)</button>
+            <button class="tab-btn" data-gen="9">Gen 9 (906-1025)</button>
+          </div>
+          <input type="text" id="search-missing-input" placeholder="Ketik nama atau nomor..." class="search-input">
+        </div>
+
+        <div class="missing-summary">
+          Menampilkan <span id="missing-shown-count">0</span> nomor kosong yang perlu dicari
+        </div>
+
+        <div class="missing-items-grid" id="missing-list-container">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Batch Input Numbers -->
+  <div id="batch-modal" class="modal-backdrop hidden">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2>⚡ Input Banyak Nomor Sekaligus</h2>
+        <button class="modal-close" id="btn-close-batch-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">Punya banyak kartu sekaligus? Masukkan nomor-nomornya dipisahkan dengan koma atau spasi (contoh: <code>1, 4, 7, 25, 150, 151</code> atau rentang <code>1-10</code>):</p>
+        <textarea id="batch-input-area" rows="4" placeholder="Contoh: 1, 4, 7, 25, 133, 143, 150-155" class="batch-textarea"></textarea>
+        <div class="batch-actions">
+          <button id="btn-process-batch" class="btn primary">Proses & Tambahkan</button>
+          <span id="batch-status-msg" class="batch-msg"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: GitHub Storage & Sync Settings -->
+  <div id="settings-modal" class="modal-backdrop hidden">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2>🐙 Pengaturan GitHub & Sync Data JSON</h2>
+        <button class="modal-close" id="btn-close-settings-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">
+          Konfigurasikan koneksi ke repositori GitHub kamu untuk otomatis menarik (pull) dan menyimpan (push) data Pokédex ke file <code>pokebinder_cards.json</code>.
+          <br><strong style="color:var(--pokemon-yellow);">🔒 Token GitHub Anda dienkripsi aman</strong> sebelum disimpan ke pengaturan browser/JSON (menggunakan kunci rahasia yang dapat Anda atur sendiri).
+        </p>
+
+        <form id="github-settings-form" class="settings-form">
+          <div class="form-row">
+            <div class="form-group flex-1">
+              <label for="gh-username">Username GitHub:</label>
+              <input type="text" id="gh-username" placeholder="contoh: ardiasgusty" required autocomplete="username">
+            </div>
+            <div class="form-group flex-1">
+              <label for="gh-repo">Nama Repository:</label>
+              <input type="text" id="gh-repo" placeholder="contoh: Pokedex" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group flex-1">
+              <label for="gh-branch">Branch:</label>
+              <input type="text" id="gh-branch" value="main" required>
+            </div>
+            <div class="form-group flex-1">
+              <label for="gh-filepath">Path File JSON di Repo:</label>
+              <input type="text" id="gh-filepath" value="pokebinder_cards.json" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="gh-token">
+              GitHub Personal Access Token (Fine-grained / Classic):
+              <a href="https://github.com/settings/tokens?type=beta" target="_blank" class="help-link">Buat Token di GitHub ↗</a>
+            </label>
+            <div class="input-password-wrapper">
+              <input type="password" id="gh-token" placeholder="ghp_xxx atau github_pat_xxx (izin Contents: Read and write)" required autocomplete="new-password">
+              <button type="button" id="toggle-token-visibility" class="btn micro" title="Tampilkan/Sembunyikan">👁️</button>
+            </div>
+            <span class="input-hint">Token membutuhkan akses repositori dengan permissions: <strong>Contents (Read & Write)</strong>.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="gh-encryption-pass">
+              Kunci Enkripsi Rahasia (Secret Key / Passphrase):
+            </label>
+            <input type="password" id="gh-encryption-pass" placeholder="Ketik kata sandi enkripsi pribadi kamu (contoh: my-pokepass-2026)" value="pokebinder-vault-key-2026">
+            <span class="input-hint">Token & konfigurasi dienkripsi menggunakan algoritma AES-GCM / PBKDF2 Web Crypto API.</span>
+          </div>
+
+          <div class="settings-form-actions">
+            <button type="submit" id="btn-save-settings" class="btn primary">💾 Simpan & Enkripsi Pengaturan</button>
+            <button type="button" id="btn-test-connection" class="btn secondary">⚡ Tes Koneksi</button>
+          </div>
+        </form>
+
+        <div class="github-sync-panel">
+          <h3>Sinkronisasi Otomatis Data</h3>
+          <p class="tool-desc">Tarik data dari repositori GitHub atau kirim data lokal saat ini ke GitHub:</p>
+          <div class="sync-actions-row">
+            <button id="btn-pull-github" class="btn outline">
+              ⬇️ Tarik Data (Pull dari GitHub)
+            </button>
+            <button id="btn-push-github" class="btn outline highlight">
+              ⬆️ Kirim Data (Push ke GitHub)
+            </button>
+            <button id="btn-export-settings-json" class="btn micro" title="Export file konfigurasi terenkripsi">
+              📤 Backup Config (Encrypted JSON)
+            </button>
+          </div>
+          <div id="github-status-box" class="github-status-box">
+            Status: <span id="github-status-text">Belum terhubung.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
